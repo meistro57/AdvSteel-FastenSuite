@@ -1,0 +1,2 @@
+pyodbc
+PySide6
