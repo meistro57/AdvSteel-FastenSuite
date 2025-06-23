@@ -16,6 +16,7 @@
   - `AnchorsClass`, `AnchorsStandard`, and more
 - JSON-based workflow with optional SQL integration
 - Built with Flask and Bootstrap 5
+- Simple HTTP endpoint for filtering and querying table rows
 
 ---
 
@@ -47,6 +48,14 @@ Place your exported `.json` files in the `data/` directory:
 ├── ASTORBASE__BoltsDiameters.json
 ├── ASTORBASE__AnchorsDefinition.json
 └── ...
+```
+
+### Querying Tables
+Use the `/search/<filename>` endpoint to filter or search rows:
+
+```bash
+curl "http://127.0.0.1:5000/search/ASTORBASE__BoltsDiameters.json?q=20"
+curl "http://127.0.0.1:5000/search/ASTORBASE__BoltDefinition.json?Diameter=20&Name=Hex"
 ```
 
 ## 📋 Roadmap
