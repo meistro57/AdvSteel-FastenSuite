@@ -1,0 +1,436 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "AnchorsHoleDefinition",
+  "data": [
+    {
+      "ID": 1,
+      "AnchorNameID": 7050,
+      "Location": 1,
+      "HoleType": 6,
+      "HoleTolerance": 2.0,
+      "Depth": 5.0,
+      "Angle": 45,
+      "HeadDiameter": 22.5
+    },
+    {
+      "ID": 2,
+      "AnchorNameID": 7051,
+      "Location": 1,
+      "HoleType": 6,
+      "HoleTolerance": 2.0,
+      "Depth": 5.0,
+      "Angle": 45,
+      "HeadDiameter": 25.5
+    },
+    {
+      "ID": 3,
+      "AnchorNameID": 7052,
+      "Location": 1,
+      "HoleType": 6,
+      "HoleTolerance": 2.0,
+      "Depth": 5.0,
+      "Angle": 45,
+      "HeadDiameter": 32.9
+    },
+    {
+      "ID": 7,
+      "AnchorNameID": 7075,
+      "Location": 1,
+      "HoleType": 6,
+      "HoleTolerance": 2.0,
+      "Depth": 2.5,
+      "Angle": 45,
+      "HeadDiameter": 13.0
+    },
+    {
+      "ID": 8,
+      "AnchorNameID": 7076,
+      "Location": 1,
+      "HoleType": 6,
+      "HoleTolerance": 2.0,
+      "Depth": 3.0,
+      "Angle": 45,
+      "HeadDiameter": 16.0
+    },
+    {
+      "ID": 9,
+      "AnchorNameID": 7077,
+      "Location": 1,
+      "HoleType": 6,
+      "HoleTolerance": 2.0,
+      "Depth": 4.0,
+      "Angle": 45,
+      "HeadDiameter": 20.0
+    },
+    {
+      "ID": 10,
+      "AnchorNameID": 7078,
+      "Location": 1,
+      "HoleType": 6,
+      "HoleTolerance": 2.0,
+      "Depth": 5.0,
+      "Angle": 45,
+      "HeadDiameter": 22.0
+    },
+    {
+      "ID": 4,
+      "AnchorNameID": 7126,
+      "Location": 1,
+      "HoleType": 6,
+      "HoleTolerance": 2.0,
+      "Depth": 5.0,
+      "Angle": 45,
+      "HeadDiameter": 22.5
+    },
+    {
+      "ID": 5,
+      "AnchorNameID": 7127,
+      "Location": 1,
+      "HoleType": 6,
+      "HoleTolerance": 2.0,
+      "Depth": 5.0,
+      "Angle": 45,
+      "HeadDiameter": 25.5
+    },
+    {
+      "ID": 6,
+      "AnchorNameID": 7128,
+      "Location": 1,
+      "HoleType": 6,
+      "HoleTolerance": 2.0,
+      "Depth": 5.0,
+      "Angle": 45,
+      "HeadDiameter": 32.9
+    },
+    {
+      "ID": 23,
+      "AnchorNameID": 8000,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 17,
+      "AnchorNameID": 8016,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 18,
+      "AnchorNameID": 8018,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 38,
+      "AnchorNameID": 8029,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 32,
+      "AnchorNameID": 8032,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 33,
+      "AnchorNameID": 8033,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 28,
+      "AnchorNameID": 8036,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 29,
+      "AnchorNameID": 8040,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 42,
+      "AnchorNameID": 8041,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 36,
+      "AnchorNameID": 8044,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 24,
+      "AnchorNameID": 8158,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 16,
+      "AnchorNameID": 8292,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 15,
+      "AnchorNameID": 22039,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 0,
+      "AnchorNameID": 22090,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 11,
+      "AnchorNameID": 22092,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 12,
+      "AnchorNameID": 22130,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 37,
+      "AnchorNameID": 22132,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 13,
+      "AnchorNameID": 22145,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 14,
+      "AnchorNameID": 22189,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 19,
+      "AnchorNameID": 22191,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 20,
+      "AnchorNameID": 22192,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 21,
+      "AnchorNameID": 22193,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 22,
+      "AnchorNameID": 22196,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 25,
+      "AnchorNameID": 22203,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 26,
+      "AnchorNameID": 22206,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 27,
+      "AnchorNameID": 22211,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 30,
+      "AnchorNameID": 22212,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 31,
+      "AnchorNameID": 22214,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 34,
+      "AnchorNameID": 22259,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 35,
+      "AnchorNameID": 22264,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 39,
+      "AnchorNameID": 22282,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 40,
+      "AnchorNameID": 22283,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    },
+    {
+      "ID": 41,
+      "AnchorNameID": 22287,
+      "Location": null,
+      "HoleType": null,
+      "HoleTolerance": null,
+      "Depth": null,
+      "Angle": null,
+      "HeadDiameter": null
+    }
+  ]
+}

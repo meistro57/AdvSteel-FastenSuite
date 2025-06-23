@@ -1,0 +1,66 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "ConnectorMaterial",
+  "data": [
+    {
+      "Key": "1.4301",
+      "RunName": "1.4301",
+      "weight": 0.0,
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "1.4303",
+      "RunName": "1.4303",
+      "weight": 0.0,
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "4.8",
+      "RunName": "4.8",
+      "weight": 0.0,
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "A2-50",
+      "RunName": "A2-50",
+      "weight": 0.0,
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "CuZn37",
+      "RunName": "CuZn37",
+      "weight": 0.0,
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "EN AW-Al 99,5",
+      "RunName": "EN AW-Al 99,5",
+      "weight": 0.0,
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "EN AW-AlMg3",
+      "RunName": "EN AW-AlMg3",
+      "weight": 0.0,
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Mild Steel",
+      "RunName": "Mild Steel",
+      "weight": 0.0,
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "S235J2G3",
+      "RunName": "S235J2G3",
+      "weight": 7.85e-06,
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "S235J2G3+C450",
+      "RunName": "S235J2G3+C450",
+      "weight": 7.85e-06,
+      "OwnerText": "DSC"
+    }
+  ]
+}

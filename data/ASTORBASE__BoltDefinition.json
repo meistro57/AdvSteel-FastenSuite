@@ -1,0 +1,22 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "BoltDefinition",
+  "data": [
+    {
+      "Key": -1,
+      "RunName": "Not defined"
+    },
+    {
+      "Key": 0,
+      "RunName": "Site"
+    },
+    {
+      "Key": 1,
+      "RunName": "Site drill"
+    },
+    {
+      "Key": 2,
+      "RunName": "Shop"
+    }
+  ]
+}

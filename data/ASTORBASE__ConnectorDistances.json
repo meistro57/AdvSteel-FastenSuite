@@ -1,0 +1,125 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "ConnectorDistances",
+  "data": [
+    {
+      "Key": 3.0,
+      "HoleTolerance": 0.0,
+      "along": 6.0,
+      "across": 4.5,
+      "Description": null
+    },
+    {
+      "Key": 4.0,
+      "HoleTolerance": 0.0,
+      "along": 8.0,
+      "across": 6.0,
+      "Description": null
+    },
+    {
+      "Key": 5.0,
+      "HoleTolerance": 0.0,
+      "along": 10.0,
+      "across": 7.5,
+      "Description": null
+    },
+    {
+      "Key": 6.0,
+      "HoleTolerance": 0.0,
+      "along": 12.0,
+      "across": 9.0,
+      "Description": null
+    },
+    {
+      "Key": 7.1,
+      "HoleTolerance": 0.0,
+      "along": 14.2,
+      "across": 10.65,
+      "Description": null
+    },
+    {
+      "Key": 8.0,
+      "HoleTolerance": 0.0,
+      "along": 16.0,
+      "across": 12.0,
+      "Description": null
+    },
+    {
+      "Key": 10.0,
+      "HoleTolerance": 0.0,
+      "along": 20.0,
+      "across": 15.0,
+      "Description": null
+    },
+    {
+      "Key": 12.0,
+      "HoleTolerance": 0.0,
+      "along": 24.0,
+      "across": 18.0,
+      "Description": null
+    },
+    {
+      "Key": 13.0,
+      "HoleTolerance": 0.0,
+      "along": 26.0,
+      "across": 19.5,
+      "Description": null
+    },
+    {
+      "Key": 16.0,
+      "HoleTolerance": 0.0,
+      "along": 32.0,
+      "across": 24.0,
+      "Description": null
+    },
+    {
+      "Key": 19.0,
+      "HoleTolerance": 0.0,
+      "along": 38.0,
+      "across": 28.5,
+      "Description": null
+    },
+    {
+      "Key": 20.0,
+      "HoleTolerance": 0.0,
+      "along": 40.0,
+      "across": 30.0,
+      "Description": null
+    },
+    {
+      "Key": 22.0,
+      "HoleTolerance": 0.0,
+      "along": 44.0,
+      "across": 33.0,
+      "Description": null
+    },
+    {
+      "Key": 24.0,
+      "HoleTolerance": 0.0,
+      "along": 48.0,
+      "across": 36.0,
+      "Description": null
+    },
+    {
+      "Key": 25.0,
+      "HoleTolerance": 0.0,
+      "along": 50.0,
+      "across": 37.5,
+      "Description": null
+    },
+    {
+      "Key": 27.0,
+      "HoleTolerance": 0.0,
+      "along": 54.0,
+      "across": 40.5,
+      "Description": null
+    },
+    {
+      "Key": 30.0,
+      "HoleTolerance": 0.0,
+      "along": 60.0,
+      "across": 45.0,
+      "Description": null
+    }
+  ]
+}

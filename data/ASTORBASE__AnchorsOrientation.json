@@ -1,0 +1,41 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "AnchorsOrientation",
+  "data": [
+    {
+      "Key": 1,
+      "RunName": "Normal",
+      "Owner": "DSC"
+    },
+    {
+      "Key": 2,
+      "RunName": "Inside diagonal",
+      "Owner": "DSC"
+    },
+    {
+      "Key": 3,
+      "RunName": "Outside diagonal",
+      "Owner": "DSC"
+    },
+    {
+      "Key": 4,
+      "RunName": "Outside",
+      "Owner": "DSC"
+    },
+    {
+      "Key": 5,
+      "RunName": "Inside",
+      "Owner": "DSC"
+    },
+    {
+      "Key": 6,
+      "RunName": "Inside rotated",
+      "Owner": "DSC"
+    },
+    {
+      "Key": 7,
+      "RunName": "Outside rotated",
+      "Owner": "DSC"
+    }
+  ]
+}

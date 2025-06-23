@@ -1,0 +1,126 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "ConnectorDiameters",
+  "data": [
+    {
+      "Key": 3.0,
+      "RunName": "   3.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 4.0,
+      "RunName": "   4.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 5.0,
+      "RunName": "   5.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 6.0,
+      "RunName": "   6.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 6.35,
+      "RunName": "   1/4 inch",
+      "Description": null
+    },
+    {
+      "Key": 7.1,
+      "RunName": "   7.10 mm",
+      "Description": null
+    },
+    {
+      "Key": 8.0,
+      "RunName": "   8.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 9.525,
+      "RunName": "   3/8 inch",
+      "Description": null
+    },
+    {
+      "Key": 10.0,
+      "RunName": " 10.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 12.0,
+      "RunName": " 12.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 12.7,
+      "RunName": "   1/2 inch",
+      "Description": null
+    },
+    {
+      "Key": 13.0,
+      "RunName": " 13.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 15.875,
+      "RunName": "   5/8 inch",
+      "Description": null
+    },
+    {
+      "Key": 16.0,
+      "RunName": " 16.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 19.0,
+      "RunName": " 19.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 19.05,
+      "RunName": "   3/4 inch",
+      "Description": null
+    },
+    {
+      "Key": 20.0,
+      "RunName": " 20.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 22.0,
+      "RunName": " 22.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 22.225,
+      "RunName": "   7/8 inch",
+      "Description": null
+    },
+    {
+      "Key": 24.0,
+      "RunName": " 24.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 25.0,
+      "RunName": " 25.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 25.4,
+      "RunName": "    1 inch",
+      "Description": null
+    },
+    {
+      "Key": 27.0,
+      "RunName": " 27.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 30.0,
+      "RunName": " 30.00 mm",
+      "Description": null
+    }
+  ]
+}

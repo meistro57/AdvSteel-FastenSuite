@@ -1,0 +1,26 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "AnchorsClass",
+  "data": [
+    {
+      "ID": 0,
+      "RunName": "Normal"
+    },
+    {
+      "ID": 1,
+      "RunName": "Headed"
+    },
+    {
+      "ID": 2,
+      "RunName": "Threaded"
+    },
+    {
+      "ID": 3,
+      "RunName": "Hooked"
+    },
+    {
+      "ID": 4,
+      "RunName": "J"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "BoltsCoating",
+  "data": [
+    {
+      "Key": "-",
+      "RunName": "None",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "A2",
+      "RunName": "Stainless steel  A2",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "A4",
+      "RunName": "Stainless steel  A4",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "BZP",
+      "RunName": "Bright Zinc Plated",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Galvanised",
+      "RunName": "Galvanized",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HDG",
+      "RunName": "Hot Dip Galvanized",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Sheradized",
+      "RunName": "Sheradized",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "TZN",
+      "RunName": "TZN",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Zink",
+      "RunName": "Zn",
+      "OwnerText": "DSC"
+    }
+  ]
+}

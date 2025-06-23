@@ -1,0 +1,716 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "AnchorsStandard",
+  "data": [
+    {
+      "Key": "ANCHOR CANE",
+      "RunName": "French cane anchor",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Anchors L - PN",
+      "RunName": "Polish L anchors",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Anchors P - PN",
+      "RunName": "Polish P anchors",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Anchors straight",
+      "RunName": "French straight anchor",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Bossong BAB",
+      "RunName": "Bossong BAB",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Bossong BPB METx2",
+      "RunName": "Bossong BPB METx2",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Bossong BPB-C",
+      "RunName": "Bossong BPB-C",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Bossong BRB",
+      "RunName": "Bossong BRB",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Bossong BRBx2",
+      "RunName": "Bossong BRBx2",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Bossong BSB",
+      "RunName": "Bossong BSB",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Bossong BSBx2",
+      "RunName": "Bossong BSBx2",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Bossong FBR-B",
+      "RunName": "Bossong FBR-B",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Bossong NWS",
+      "RunName": "Bossong NWS",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Bossong NWS-CE",
+      "RunName": "Bossong NWS-CE1",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Bossong NWS-CE1",
+      "RunName": "Bossong NWS CE",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Dutch Hooked Anchor",
+      "RunName": "Dutch Hooked Anchor",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Fischer FAZ",
+      "RunName": "Fischer FAZ",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Fischer FBN",
+      "RunName": "Fischer FBN",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Fischer FH II-B",
+      "RunName": "Fischer FH II-B",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Fischer FH II-H",
+      "RunName": "Fischer FH II-H",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Fischer FH II-S",
+      "RunName": "Fischer FH II-S",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Fischer FH II-SK",
+      "RunName": "Fischer FH II-SK",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Fischer FHB II-A L",
+      "RunName": "Fischer FHB II-A L",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Fischer FHB II-A S",
+      "RunName": "Fischer FHB II-A S",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Fischer FZA",
+      "RunName": "Fischer FZA",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Fischer FZA-D",
+      "RunName": "Fischer FZA-D",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Fischer FZA-I",
+      "RunName": "Fischer FZA-I",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Fischer TA M-S",
+      "RunName": "Fischer  TA M-S",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Fischer TA M-T",
+      "RunName": "Fischer  TA M-T",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "GOST 24379.1-80 Type 2.1",
+      "RunName": "GOST 24379.1-80 Type 2.1",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "GOST 24379.1-80 Type 2.2",
+      "RunName": "GOST 24379.1-80 Type 2.2",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "GOST 24379.1-80 Type 2.3",
+      "RunName": "GOST 24379.1-80 Type 2.3",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "GUS 24379.1-80",
+      "RunName": "Russian 24379.1-80 Type 1.1",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "GUS 24379.1-80 type 1.2",
+      "RunName": "Russian 24379.1-80 Type 1.2",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "hammer screw DIN 7992",
+      "RunName": "hammer screw DIN 7992",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HAS",
+      "RunName": "HILTI HAS",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HAS-E",
+      "RunName": "HILTI HAS-E",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HAS-TZ",
+      "RunName": "HILTI HAS-TZ",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HAS-V-36",
+      "RunName": "HILTI HAS-V-36",
+      "OwnerText": "My Company"
+    },
+    {
+      "Key": "HILTI HIT-HY 20 HAS-E",
+      "RunName": "HILTI HIT-HY 20 HAS-E",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HIT-HY 20 HIS",
+      "RunName": "HILTI HIT-HY 20 HIS",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HIT-HY 20 HIS-R",
+      "RunName": "HILTI HIT-HY 20 HIS-R",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HIT-HY 20 HIT-A",
+      "RunName": "HILTI HIT-HY 20 HIT-A",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HIT-V",
+      "RunName": "HILTI HIT-V",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "HILTI HIT-V-F",
+      "RunName": "HILTI HIT-V-F",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "HILTI HIT-V-R",
+      "RunName": "HILTI HIT-V-R",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "HILTI HLC",
+      "RunName": "HILTI HLC",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HLC-H",
+      "RunName": "HILTI HLC-H",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HLC-HX",
+      "RunName": "HILTI HLC-HX",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HLC-L",
+      "RunName": "HILTI HLC-L",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HLC-SK",
+      "RunName": "HILTI HLC-SK",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HSA",
+      "RunName": "HILTI HSA",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HSA-R",
+      "RunName": "HILTI HSA-R",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HSC-A",
+      "RunName": "HILTI HSC-A",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HSC-I",
+      "RunName": "HILTI HSC-I",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HSL-3",
+      "RunName": "HILTI HSL-3",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HSL-3_SK",
+      "RunName": "HILTI HSL-3_SK",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HSL-3-B",
+      "RunName": "HILTI HSL-3-B",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HSL-3-G",
+      "RunName": "HILTI HSL-3-G",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HSLG-R",
+      "RunName": "HILTI HSLG-R",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HST",
+      "RunName": "HILTI HST",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HST-HCR",
+      "RunName": "HILTI HST-HCR",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HVA HAS Super",
+      "RunName": "HILTI HVA HAS Super",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HVA HAS-E",
+      "RunName": "HILTI HVA HAS-E",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HVA HAS-R",
+      "RunName": "HILTI HVA HAS-R",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HVA HIS",
+      "RunName": "HILTI HVA HIS",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HVA HIT-TZ",
+      "RunName": "HILTI HVA HIT-TZ",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HVA Rebar",
+      "RunName": "HILTI HVA Rebar",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HY 150 HAS Super",
+      "RunName": "HILTI HY 150 HAS Super",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HY 150 HAS-E",
+      "RunName": "HILTI HY 150 HAS-E",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HY 150 HAS-R",
+      "RunName": "HILTI HY 150 HAS-R",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HY 150 HIS",
+      "RunName": "HILTI HY 150 HIS",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HY 150 HIS-R",
+      "RunName": "HILTI HY 150 HIS-R",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HY 150 HIT-RTZ",
+      "RunName": "HILTI HY 150 HIT-RTZ",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HY 150 HIT-TZ",
+      "RunName": "HILTI HY 150 HIT-TZ",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HY 150 Rebar",
+      "RunName": "HILTI HY 150 Rebar",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI HY 200 HAS-E",
+      "RunName": "HILTI HY 200 HAS-E",
+      "OwnerText": "My Company"
+    },
+    {
+      "Key": "HILTI HY 270 HAS-E W/SCREENS",
+      "RunName": "HILTI HY 270 HAS-E W/SCREENS",
+      "OwnerText": "My Company"
+    },
+    {
+      "Key": "HILTI HY-200",
+      "RunName": "HILTI HY-200",
+      "OwnerText": "MH"
+    },
+    {
+      "Key": "HILTI ICE HAS Super",
+      "RunName": "HILTI ICE HAS Super",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI ICE HAS-E",
+      "RunName": "HILTI ICE HAS-E",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI ICE HAS-R",
+      "RunName": "HILTI ICE HAS-R",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI ICE HIS",
+      "RunName": "HILTI ICE HIS",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI ICE HIS-R",
+      "RunName": "HILTI ICE HIS-R",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI ICE HIT-RTZ",
+      "RunName": "HILTI ICE HIT-RTZ",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI ICE HIT-TZ",
+      "RunName": "HILTI ICE HIT-TZ",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI ICE Rebar",
+      "RunName": "HILTI ICE Rebar",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI KB3 Long Thread",
+      "RunName": "HILTI KB3 Long Thread",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI KB3 Std Thread",
+      "RunName": "HILTI KB3 Std Thread",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI KB3 TZ",
+      "RunName": "HILTI KB3 TZ",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI KH-EZ",
+      "RunName": "HILTI KH-EZ",
+      "OwnerText": "MH"
+    },
+    {
+      "Key": "HILTI KH-EZ CRC SCREW ANCHOR",
+      "RunName": "HILTI KH-EZ CRC SCREW ANCHOR",
+      "OwnerText": "MH"
+    },
+    {
+      "Key": "HILTI KWIK BOLT 1",
+      "RunName": "HILTI KWIK BOLT 1",
+      "OwnerText": "MH"
+    },
+    {
+      "Key": "HILTI KWIK-CON+ TORX HEX HEAD SCREW ANCHOR",
+      "RunName": "HILTI KWIK-CON+ TORX HEX HEAD SCREW ANCHOR",
+      "OwnerText": "MH"
+    },
+    {
+      "Key": "HILTI RE 500 HAS Super",
+      "RunName": "HILTI RE 500 HAS Super",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI RE 500 HAS-E",
+      "RunName": "HILTI RE 500 HAS-E",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI RE 500 HAS-R",
+      "RunName": "HILTI RE 500 HAS-R",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI RE 500 HIS",
+      "RunName": "HILTI RE 500 HIS",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI RE 500 HIS-R",
+      "RunName": "HILTI RE 500 HIS-R",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI RE 500 HIT-RTZ",
+      "RunName": "HILTI RE 500 HIT-RTZ",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI RE 500 HIT-TZ",
+      "RunName": "HILTI RE 500 HIT-TZ",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HILTI RE 500 Rebar",
+      "RunName": "HILTI RE 500 Rebar",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "HOLDING DOWN BOLTS",
+      "RunName": "HOLDING DOWN BOLTS",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "J-Anker Ringbuch",
+      "RunName": "German J-Anchor",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "MARKS ANCHOR BOLTS",
+      "RunName": "MARKS ANCHOR BOLTS",
+      "OwnerText": "My Company"
+    },
+    {
+      "Key": "Power-Bolt+",
+      "RunName": "Power-Bolt+",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Powers Power-Stud+ SD1",
+      "RunName": "Powers Power-Stud+ SD1",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Powers Power-Stud+ SD2",
+      "RunName": "Powers Power-Stud+ SD2",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Powers Power-Stud+ SD4",
+      "RunName": "Powers Power-Stud+ SD4",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Powers Power-Stud+ SD6",
+      "RunName": "Powers Power-Stud+ SD6",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Powers Wedge-Bolt+",
+      "RunName": "Powers Wedge-Bolt+",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Power-Stud HD5",
+      "RunName": "Power-Stud HD5",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Ramset ChemSet",
+      "RunName": "Ramset ChemSet",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Ramset TruBolt",
+      "RunName": "Ramset TruBolt",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "SPIT DYNABOLT",
+      "RunName": "SPIT DYNABOLT Screw",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "SPIT DYNABOLT TF",
+      "RunName": "SPIT DYNABOLT TF",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "SPIT DYNABOLT Tige",
+      "RunName": "SPIT DYNABOLT Tige",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "SPIT EPCON C8",
+      "RunName": "SPIT EPCON C8",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "SPIT EPOMAX",
+      "RunName": "SPIT EPOMAX",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "SPIT FIX II",
+      "RunName": "SPIT FIX II",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "SPIT FIX Z",
+      "RunName": "SPIT FIX Z",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "SPIT GUARDIA",
+      "RunName": "SPIT GUARDIA",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "SPIT MAXIMA",
+      "RunName": "SPIT MAXIMA",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "SPIT TRIGA Z Type E",
+      "RunName": "SPIT TRIGA Z Type E",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "SPIT TRIGA Z Type TF",
+      "RunName": "SPIT TRIGA Z Type TF",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "SPIT TRIGA Z Type V",
+      "RunName": "SPIT TRIGA Z Type V",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Straight anchor with flat",
+      "RunName": "Straight flat with anchor",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "THRD ROD ANCHOR",
+      "RunName": "THRD ROD ANCHOR",
+      "OwnerText": "My Company"
+    },
+    {
+      "Key": "thread rod DIN 976",
+      "RunName": "Threaded rod DIN 976",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Upat EXA",
+      "RunName": "Upat EXA",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Upat UKA 3",
+      "RunName": "Upat UKA 3",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Upat UMV",
+      "RunName": "Upat UMV",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "US Headed Anchors",
+      "RunName": "US Headed Anchors",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "US Hooked Anchors",
+      "RunName": "US Hooked Anchors",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "US J-Round Anchors",
+      "RunName": "US J-Round Anchors",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "US J-Square Anchors",
+      "RunName": "US J-Square Anchors",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "US Normal Anchors",
+      "RunName": "US Normal Anchors",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "US Threaded Anchors",
+      "RunName": "US Threaded Anchors",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Würth W-FA",
+      "RunName": "Würth W-FA",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Würth W-FAZ",
+      "RunName": "Würth W-FAZ",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Würth W-HAZ",
+      "RunName": "Würth W-HAZ",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "ГОСТ 28778-90",
+      "RunName": "GOST 28778-90",
+      "OwnerText": "GRAITEC"
+    }
+  ]
+}

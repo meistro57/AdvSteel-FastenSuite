@@ -1,0 +1,1098 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "ConnectorRelations",
+  "data": [
+    {
+      "Key": 1,
+      "ConnectorStandard": "Nelson H4L",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 2,
+      "ConnectorStandard": "Nelson H4L",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 10.0
+    },
+    {
+      "Key": 3,
+      "ConnectorStandard": "Nelson H4L",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 13.0
+    },
+    {
+      "Key": 4,
+      "ConnectorStandard": "Nelson H4L",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 16.0
+    },
+    {
+      "Key": 5,
+      "ConnectorStandard": "Nelson H4L-Inch",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 6.35
+    },
+    {
+      "Key": 6,
+      "ConnectorStandard": "Nelson H4L-Inch",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 9.525
+    },
+    {
+      "Key": 7,
+      "ConnectorStandard": "Nelson H4L-Inch",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 12.7
+    },
+    {
+      "Key": 8,
+      "ConnectorStandard": "Nelson H4L-Inch",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 15.875
+    },
+    {
+      "Key": 9,
+      "ConnectorStandard": "Nelson S3L",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 19.0
+    },
+    {
+      "Key": 10,
+      "ConnectorStandard": "Nelson S3L",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 22.0
+    },
+    {
+      "Key": 11,
+      "ConnectorStandard": "Nelson S3L",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 25.0
+    },
+    {
+      "Key": 12,
+      "ConnectorStandard": "Nelson S3L-Inch",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 19.05
+    },
+    {
+      "Key": 13,
+      "ConnectorStandard": "Nelson S3L-Inch",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 22.225
+    },
+    {
+      "Key": 14,
+      "ConnectorStandard": "Nelson S3L-Inch",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 25.4
+    },
+    {
+      "Key": 15,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 16,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 17,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 18,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 19,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 20,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 21,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 22,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 23,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 24,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 25,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 26,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 27,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 28,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 29,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 30,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 10.0
+    },
+    {
+      "Key": 31,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 10.0
+    },
+    {
+      "Key": 32,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 10.0
+    },
+    {
+      "Key": 33,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 12.0
+    },
+    {
+      "Key": 34,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 12.0
+    },
+    {
+      "Key": 35,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 16.0
+    },
+    {
+      "Key": 36,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 16.0
+    },
+    {
+      "Key": 37,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 20.0
+    },
+    {
+      "Key": 38,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 20.0
+    },
+    {
+      "Key": 39,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 24.0
+    },
+    {
+      "Key": 40,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 24.0
+    },
+    {
+      "Key": 41,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 42,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 43,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 44,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "EN AW-Al 99,5",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 45,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "EN AW-AlMg3",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 46,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 47,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 48,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 49,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "EN AW-Al 99,5",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 50,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "EN AW-AlMg3",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 51,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 7.1
+    },
+    {
+      "Key": 52,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 7.1
+    },
+    {
+      "Key": 53,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 7.1
+    },
+    {
+      "Key": 54,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "EN AW-Al 99,5",
+      "ConnectorDiameter": 7.1
+    },
+    {
+      "Key": 55,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "EN AW-AlMg3",
+      "ConnectorDiameter": 7.1
+    },
+    {
+      "Key": 56,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 57,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 58,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 59,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 60,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 10.0
+    },
+    {
+      "Key": 61,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 10.0
+    },
+    {
+      "Key": 62,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 12.0
+    },
+    {
+      "Key": 63,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 12.0
+    },
+    {
+      "Key": 64,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 16.0
+    },
+    {
+      "Key": 65,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 16.0
+    },
+    {
+      "Key": 66,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 20.0
+    },
+    {
+      "Key": 67,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 20.0
+    },
+    {
+      "Key": 68,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 24.0
+    },
+    {
+      "Key": 69,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 24.0
+    },
+    {
+      "Key": 70,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 71,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 72,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 73,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "EN AW-Al 99,5",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 74,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "EN AW-AlMg3",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 75,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 76,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 77,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 78,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "EN AW-Al 99,5",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 79,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "EN AW-AlMg3",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 80,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 81,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 82,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 83,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "EN AW-Al 99,5",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 84,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "EN AW-AlMg3",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 85,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 86,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 87,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 88,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "EN AW-Al 99,5",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 89,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "EN AW-AlMg3",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 90,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 91,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 92,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 93,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "EN AW-Al 99,5",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 94,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "EN AW-AlMg3",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 95,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "1.4301",
+      "ConnectorDiameter": 10.0
+    },
+    {
+      "Key": 96,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "S235J2G3",
+      "ConnectorDiameter": 10.0
+    },
+    {
+      "Key": 97,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "1.4301",
+      "ConnectorDiameter": 13.0
+    },
+    {
+      "Key": 98,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "1.4303",
+      "ConnectorDiameter": 13.0
+    },
+    {
+      "Key": 99,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "S235J2G3",
+      "ConnectorDiameter": 13.0
+    },
+    {
+      "Key": 100,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "1.4301",
+      "ConnectorDiameter": 16.0
+    },
+    {
+      "Key": 101,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "1.4303",
+      "ConnectorDiameter": 16.0
+    },
+    {
+      "Key": 102,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "S235J2G3",
+      "ConnectorDiameter": 16.0
+    },
+    {
+      "Key": 103,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "1.4301",
+      "ConnectorDiameter": 19.0
+    },
+    {
+      "Key": 104,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "1.4303",
+      "ConnectorDiameter": 19.0
+    },
+    {
+      "Key": 105,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "S235J2G3",
+      "ConnectorDiameter": 19.0
+    },
+    {
+      "Key": 106,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "1.4301",
+      "ConnectorDiameter": 22.0
+    },
+    {
+      "Key": 107,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "1.4303",
+      "ConnectorDiameter": 22.0
+    },
+    {
+      "Key": 108,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "S235J2G3",
+      "ConnectorDiameter": 22.0
+    },
+    {
+      "Key": 109,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "1.4301",
+      "ConnectorDiameter": 25.0
+    },
+    {
+      "Key": 110,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "1.4303",
+      "ConnectorDiameter": 25.0
+    },
+    {
+      "Key": 111,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "S235J2G3",
+      "ConnectorDiameter": 25.0
+    },
+    {
+      "Key": 112,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 113,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 114,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 115,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "EN AW-Al 99,5",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 116,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "EN AW-AlMg3",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 117,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 118,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 119,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 120,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "EN AW-Al 99,5",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 121,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "EN AW-AlMg3",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 122,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 123,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 124,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 125,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "EN AW-Al 99,5",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 126,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "EN AW-AlMg3",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 127,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 128,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 129,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "CuZn37",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 130,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "EN AW-Al 99,5",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 131,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "EN AW-AlMg3",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 132,
+      "ConnectorStandard": "13918 SD",
+      "ConnectorMaterial": "1.4303",
+      "ConnectorDiameter": 10.0
+    },
+    {
+      "Key": 133,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 134,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 135,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 10.0
+    },
+    {
+      "Key": 136,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 12.0
+    },
+    {
+      "Key": 137,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "4.8",
+      "ConnectorDiameter": 16.0
+    },
+    {
+      "Key": 138,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 139,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 140,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 10.0
+    },
+    {
+      "Key": 141,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 12.0
+    },
+    {
+      "Key": 142,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "A2-50",
+      "ConnectorDiameter": 16.0
+    },
+    {
+      "Key": 143,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 144,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 145,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 146,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 147,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 148,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 10.0
+    },
+    {
+      "Key": 149,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 12.0
+    },
+    {
+      "Key": 150,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 16.0
+    },
+    {
+      "Key": 151,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 20.0
+    },
+    {
+      "Key": 152,
+      "ConnectorStandard": "13918 FD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 24.0
+    },
+    {
+      "Key": 153,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 154,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 155,
+      "ConnectorStandard": "13918 IT",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 7.1
+    },
+    {
+      "Key": 156,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 157,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 158,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 10.0
+    },
+    {
+      "Key": 159,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 12.0
+    },
+    {
+      "Key": 160,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 16.0
+    },
+    {
+      "Key": 161,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 20.0
+    },
+    {
+      "Key": 162,
+      "ConnectorStandard": "13918 PD",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 24.0
+    },
+    {
+      "Key": 163,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 164,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 165,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 166,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 167,
+      "ConnectorStandard": "13918 PT",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 168,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 3.0
+    },
+    {
+      "Key": 169,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 4.0
+    },
+    {
+      "Key": 170,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 5.0
+    },
+    {
+      "Key": 171,
+      "ConnectorStandard": "13918 UT",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 172,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 173,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 8.0
+    },
+    {
+      "Key": 174,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 10.0
+    },
+    {
+      "Key": 175,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 12.0
+    },
+    {
+      "Key": 176,
+      "ConnectorStandard": "13918 DU",
+      "ConnectorMaterial": "S235J2G3+C450",
+      "ConnectorDiameter": 16.0
+    },
+    {
+      "Key": 177,
+      "ConnectorStandard": "THRD.STUD",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 19.05
+    },
+    {
+      "Key": 178,
+      "ConnectorStandard": "THRD.STUD",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 9.525
+    },
+    {
+      "Key": 179,
+      "ConnectorStandard": "THRD.STUD",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 12.0
+    },
+    {
+      "Key": 180,
+      "ConnectorStandard": "THRD.STUD",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 15.875
+    },
+    {
+      "Key": 181,
+      "ConnectorStandard": "THRD.STUD",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 6.0
+    },
+    {
+      "Key": 182,
+      "ConnectorStandard": "THRD.STUD",
+      "ConnectorMaterial": "Mild Steel",
+      "ConnectorDiameter": 6.35
+    }
+  ]
+}

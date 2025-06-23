@@ -1,0 +1,727 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "BoltsDistances",
+  "data": [
+    {
+      "Diameter": 3.0,
+      "HoleTolerance": 0.0,
+      "along": 6.0,
+      "across": 4.5,
+      "Description": "dl=3"
+    },
+    {
+      "Diameter": 3.0,
+      "HoleTolerance": 1.0,
+      "along": 8.0,
+      "across": 6.0,
+      "Description": "dl=4"
+    },
+    {
+      "Diameter": 3.0,
+      "HoleTolerance": 2.0,
+      "along": 10.0,
+      "across": 7.5,
+      "Description": "dl=5"
+    },
+    {
+      "Diameter": 4.0,
+      "HoleTolerance": 0.0,
+      "along": 8.0,
+      "across": 6.0,
+      "Description": "dl=4"
+    },
+    {
+      "Diameter": 4.0,
+      "HoleTolerance": 1.0,
+      "along": 10.0,
+      "across": 7.5,
+      "Description": "dl=5"
+    },
+    {
+      "Diameter": 4.0,
+      "HoleTolerance": 2.0,
+      "along": 12.0,
+      "across": 9.0,
+      "Description": "dl=6"
+    },
+    {
+      "Diameter": 5.0,
+      "HoleTolerance": 0.0,
+      "along": 10.0,
+      "across": 7.5,
+      "Description": "dl=5"
+    },
+    {
+      "Diameter": 5.0,
+      "HoleTolerance": 1.0,
+      "along": 12.0,
+      "across": 9.0,
+      "Description": "dl=6"
+    },
+    {
+      "Diameter": 5.0,
+      "HoleTolerance": 2.0,
+      "along": 14.0,
+      "across": 10.5,
+      "Description": "dl=7"
+    },
+    {
+      "Diameter": 6.0,
+      "HoleTolerance": 0.0,
+      "along": 12.0,
+      "across": 9.0,
+      "Description": "dl=6"
+    },
+    {
+      "Diameter": 6.0,
+      "HoleTolerance": 1.0,
+      "along": 14.0,
+      "across": 10.5,
+      "Description": "dl=7"
+    },
+    {
+      "Diameter": 6.0,
+      "HoleTolerance": 2.0,
+      "along": 16.0,
+      "across": 12.0,
+      "Description": "dl=8"
+    },
+    {
+      "Diameter": 6.35,
+      "HoleTolerance": 0.0,
+      "along": 12.7,
+      "across": 9.525,
+      "Description": "dl=6.35"
+    },
+    {
+      "Diameter": 6.35,
+      "HoleTolerance": 1.0,
+      "along": 14.7,
+      "across": 11.025,
+      "Description": "dl=7.35"
+    },
+    {
+      "Diameter": 6.35,
+      "HoleTolerance": 2.0,
+      "along": 16.7,
+      "across": 12.525,
+      "Description": "dl=8.35"
+    },
+    {
+      "Diameter": 7.0,
+      "HoleTolerance": 1.0,
+      "along": 1.0,
+      "across": 1.0,
+      "Description": " "
+    },
+    {
+      "Diameter": 7.9375,
+      "HoleTolerance": 0.0,
+      "along": 15.875,
+      "across": 11.9,
+      "Description": "dl=7.9375"
+    },
+    {
+      "Diameter": 7.9375,
+      "HoleTolerance": 1.0,
+      "along": 17.875,
+      "across": 13.4,
+      "Description": "dl=8.9375"
+    },
+    {
+      "Diameter": 7.9375,
+      "HoleTolerance": 2.0,
+      "along": 19.875,
+      "across": 14.9,
+      "Description": "dl=9.9375"
+    },
+    {
+      "Diameter": 8.0,
+      "HoleTolerance": 0.0,
+      "along": 16.0,
+      "across": 12.0,
+      "Description": "dl=8"
+    },
+    {
+      "Diameter": 8.0,
+      "HoleTolerance": 1.0,
+      "along": 18.0,
+      "across": 13.5,
+      "Description": "dl=9"
+    },
+    {
+      "Diameter": 8.0,
+      "HoleTolerance": 2.0,
+      "along": 20.0,
+      "across": 15.0,
+      "Description": "dl=10"
+    },
+    {
+      "Diameter": 9.525,
+      "HoleTolerance": 0.0,
+      "along": 19.05,
+      "across": 14.2875,
+      "Description": "dl=9.525"
+    },
+    {
+      "Diameter": 9.525,
+      "HoleTolerance": 1.0,
+      "along": 21.05,
+      "across": 15.7875,
+      "Description": "dl=10.525"
+    },
+    {
+      "Diameter": 9.525,
+      "HoleTolerance": 2.0,
+      "along": 23.05,
+      "across": 17.2875,
+      "Description": "dl=11.525"
+    },
+    {
+      "Diameter": 10.0,
+      "HoleTolerance": 0.0,
+      "along": 20.0,
+      "across": 15.0,
+      "Description": "dl=10"
+    },
+    {
+      "Diameter": 10.0,
+      "HoleTolerance": 1.0,
+      "along": 22.0,
+      "across": 16.5,
+      "Description": "dl=11"
+    },
+    {
+      "Diameter": 10.0,
+      "HoleTolerance": 2.0,
+      "along": 24.0,
+      "across": 18.0,
+      "Description": "dl=12"
+    },
+    {
+      "Diameter": 12.0,
+      "HoleTolerance": 0.0,
+      "along": 24.0,
+      "across": 18.0,
+      "Description": "dl=12"
+    },
+    {
+      "Diameter": 12.0,
+      "HoleTolerance": 1.0,
+      "along": 26.0,
+      "across": 19.5,
+      "Description": "dl=13"
+    },
+    {
+      "Diameter": 12.0,
+      "HoleTolerance": 2.0,
+      "along": 28.0,
+      "across": 21.0,
+      "Description": "dl=14"
+    },
+    {
+      "Diameter": 12.7,
+      "HoleTolerance": 0.0,
+      "along": 25.4,
+      "across": 19.05,
+      "Description": "dl=12,7"
+    },
+    {
+      "Diameter": 12.7,
+      "HoleTolerance": 1.0,
+      "along": 27.4,
+      "across": 20.55,
+      "Description": "dl=13,7"
+    },
+    {
+      "Diameter": 12.7,
+      "HoleTolerance": 2.0,
+      "along": 29.4,
+      "across": 22.05,
+      "Description": "dl=14,7"
+    },
+    {
+      "Diameter": 14.0,
+      "HoleTolerance": 0.0,
+      "along": 18.0,
+      "across": 21.0,
+      "Description": "dl=14"
+    },
+    {
+      "Diameter": 14.0,
+      "HoleTolerance": 1.0,
+      "along": 30.0,
+      "across": 22.5,
+      "Description": "dl=15"
+    },
+    {
+      "Diameter": 14.0,
+      "HoleTolerance": 2.0,
+      "along": 32.0,
+      "across": 24.0,
+      "Description": "dl=16"
+    },
+    {
+      "Diameter": 15.875,
+      "HoleTolerance": 0.0,
+      "along": 31.75,
+      "across": 23.8125,
+      "Description": "dl=15,875"
+    },
+    {
+      "Diameter": 15.875,
+      "HoleTolerance": 1.0,
+      "along": 33.75,
+      "across": 25.3125,
+      "Description": "dl=16,875"
+    },
+    {
+      "Diameter": 15.875,
+      "HoleTolerance": 2.0,
+      "along": 35.75,
+      "across": 26.8125,
+      "Description": "dl=17,875"
+    },
+    {
+      "Diameter": 16.0,
+      "HoleTolerance": 0.0,
+      "along": 32.0,
+      "across": 24.0,
+      "Description": "dl=16"
+    },
+    {
+      "Diameter": 16.0,
+      "HoleTolerance": 1.0,
+      "along": 34.0,
+      "across": 25.5,
+      "Description": "dl=17"
+    },
+    {
+      "Diameter": 16.0,
+      "HoleTolerance": 2.0,
+      "along": 36.0,
+      "across": 27.0,
+      "Description": "dl=18"
+    },
+    {
+      "Diameter": 18.0,
+      "HoleTolerance": 0.0,
+      "along": 36.0,
+      "across": 27.0,
+      "Description": "dl=18"
+    },
+    {
+      "Diameter": 18.0,
+      "HoleTolerance": 1.0,
+      "along": 38.0,
+      "across": 28.5,
+      "Description": "dl=19"
+    },
+    {
+      "Diameter": 18.0,
+      "HoleTolerance": 2.0,
+      "along": 40.0,
+      "across": 30.0,
+      "Description": "dl=20"
+    },
+    {
+      "Diameter": 19.05,
+      "HoleTolerance": 0.0,
+      "along": 38.1,
+      "across": 28.575,
+      "Description": "dl=19,05"
+    },
+    {
+      "Diameter": 19.05,
+      "HoleTolerance": 1.0,
+      "along": 40.1,
+      "across": 30.075,
+      "Description": "dl=20,05"
+    },
+    {
+      "Diameter": 19.05,
+      "HoleTolerance": 2.0,
+      "along": 42.1,
+      "across": 31.575,
+      "Description": "dl=21,05"
+    },
+    {
+      "Diameter": 20.0,
+      "HoleTolerance": 0.0,
+      "along": 40.0,
+      "across": 30.0,
+      "Description": "dl=20"
+    },
+    {
+      "Diameter": 20.0,
+      "HoleTolerance": 1.0,
+      "along": 42.0,
+      "across": 31.5,
+      "Description": "dl=21"
+    },
+    {
+      "Diameter": 20.0,
+      "HoleTolerance": 2.0,
+      "along": 44.0,
+      "across": 33.0,
+      "Description": "dl=22"
+    },
+    {
+      "Diameter": 22.0,
+      "HoleTolerance": 0.0,
+      "along": 44.0,
+      "across": 33.0,
+      "Description": "dl=22"
+    },
+    {
+      "Diameter": 22.0,
+      "HoleTolerance": 1.0,
+      "along": 46.0,
+      "across": 34.5,
+      "Description": "dl=23"
+    },
+    {
+      "Diameter": 22.0,
+      "HoleTolerance": 2.0,
+      "along": 48.0,
+      "across": 36.0,
+      "Description": "dl=24"
+    },
+    {
+      "Diameter": 22.225,
+      "HoleTolerance": 0.0,
+      "along": 44.45,
+      "across": 33.3375,
+      "Description": "dl=22,225"
+    },
+    {
+      "Diameter": 22.225,
+      "HoleTolerance": 1.0,
+      "along": 46.45,
+      "across": 34.8375,
+      "Description": "dl=23,225"
+    },
+    {
+      "Diameter": 22.225,
+      "HoleTolerance": 2.0,
+      "along": 48.45,
+      "across": 36.3375,
+      "Description": "dl=24,225"
+    },
+    {
+      "Diameter": 24.0,
+      "HoleTolerance": 0.0,
+      "along": 48.0,
+      "across": 36.0,
+      "Description": "dl=24"
+    },
+    {
+      "Diameter": 24.0,
+      "HoleTolerance": 1.0,
+      "along": 50.0,
+      "across": 37.5,
+      "Description": "dl=25"
+    },
+    {
+      "Diameter": 24.0,
+      "HoleTolerance": 2.0,
+      "along": 52.0,
+      "across": 39.0,
+      "Description": "dl=26"
+    },
+    {
+      "Diameter": 25.4,
+      "HoleTolerance": 0.0,
+      "along": 50.8,
+      "across": 38.1,
+      "Description": "dl=25.4"
+    },
+    {
+      "Diameter": 25.4,
+      "HoleTolerance": 1.0,
+      "along": 52.8,
+      "across": 39.6,
+      "Description": "dl=26,4"
+    },
+    {
+      "Diameter": 25.4,
+      "HoleTolerance": 2.0,
+      "along": 54.8,
+      "across": 41.1,
+      "Description": "dl=27,4"
+    },
+    {
+      "Diameter": 27.0,
+      "HoleTolerance": 0.0,
+      "along": 54.0,
+      "across": 40.5,
+      "Description": "dl=27"
+    },
+    {
+      "Diameter": 27.0,
+      "HoleTolerance": 1.0,
+      "along": 56.0,
+      "across": 42.0,
+      "Description": "dl=28"
+    },
+    {
+      "Diameter": 27.0,
+      "HoleTolerance": 2.0,
+      "along": 58.0,
+      "across": 43.5,
+      "Description": "dl=29"
+    },
+    {
+      "Diameter": 28.575,
+      "HoleTolerance": 0.0,
+      "along": 57.15,
+      "across": 42.8625,
+      "Description": "dl=28,575"
+    },
+    {
+      "Diameter": 28.575,
+      "HoleTolerance": 1.0,
+      "along": 59.15,
+      "across": 44.3625,
+      "Description": "dl=29,575"
+    },
+    {
+      "Diameter": 28.575,
+      "HoleTolerance": 2.0,
+      "along": 61.15,
+      "across": 45.8625,
+      "Description": "dl=30,575"
+    },
+    {
+      "Diameter": 30.0,
+      "HoleTolerance": 0.0,
+      "along": 60.0,
+      "across": 45.0,
+      "Description": "dl=30"
+    },
+    {
+      "Diameter": 30.0,
+      "HoleTolerance": 1.0,
+      "along": 62.0,
+      "across": 46.5,
+      "Description": "dl=31"
+    },
+    {
+      "Diameter": 30.0,
+      "HoleTolerance": 2.0,
+      "along": 64.0,
+      "across": 48.0,
+      "Description": "dl=32"
+    },
+    {
+      "Diameter": 31.75,
+      "HoleTolerance": 0.0,
+      "along": 63.5,
+      "across": 47.625,
+      "Description": "dl=31,75"
+    },
+    {
+      "Diameter": 31.75,
+      "HoleTolerance": 1.0,
+      "along": 65.5,
+      "across": 49.125,
+      "Description": "dl=32,75"
+    },
+    {
+      "Diameter": 31.75,
+      "HoleTolerance": 2.0,
+      "along": 67.5,
+      "across": 50.625,
+      "Description": "dl=33,75"
+    },
+    {
+      "Diameter": 33.0,
+      "HoleTolerance": 0.0,
+      "along": 66.0,
+      "across": 49.5,
+      "Description": "dl=33"
+    },
+    {
+      "Diameter": 33.0,
+      "HoleTolerance": 1.0,
+      "along": 68.0,
+      "across": 51.0,
+      "Description": "dl=34"
+    },
+    {
+      "Diameter": 33.0,
+      "HoleTolerance": 2.0,
+      "along": 70.0,
+      "across": 52.5,
+      "Description": "dl=35"
+    },
+    {
+      "Diameter": 34.925,
+      "HoleTolerance": 0.0,
+      "along": 69.85,
+      "across": 52.3875,
+      "Description": "dl=34,925"
+    },
+    {
+      "Diameter": 34.925,
+      "HoleTolerance": 1.0,
+      "along": 71.85,
+      "across": 53.8875,
+      "Description": "dl=35,925"
+    },
+    {
+      "Diameter": 34.925,
+      "HoleTolerance": 2.0,
+      "along": 73.85,
+      "across": 55.3875,
+      "Description": "dl=36,925"
+    },
+    {
+      "Diameter": 36.0,
+      "HoleTolerance": 0.0,
+      "along": 72.0,
+      "across": 54.0,
+      "Description": "dl=36"
+    },
+    {
+      "Diameter": 36.0,
+      "HoleTolerance": 1.0,
+      "along": 74.0,
+      "across": 55.5,
+      "Description": "dl=37"
+    },
+    {
+      "Diameter": 36.0,
+      "HoleTolerance": 2.0,
+      "along": 76.0,
+      "across": 57.0,
+      "Description": "dl=38"
+    },
+    {
+      "Diameter": 38.1,
+      "HoleTolerance": 0.0,
+      "along": 76.2,
+      "across": 57.15,
+      "Description": "dl=38,1"
+    },
+    {
+      "Diameter": 38.1,
+      "HoleTolerance": 1.0,
+      "along": 78.2,
+      "across": 58.65,
+      "Description": "dl=39,1"
+    },
+    {
+      "Diameter": 38.1,
+      "HoleTolerance": 2.0,
+      "along": 80.2,
+      "across": 60.15,
+      "Description": "dl=40,1"
+    },
+    {
+      "Diameter": 39.0,
+      "HoleTolerance": 1.0,
+      "along": 1.0,
+      "across": 1.0,
+      "Description": " "
+    },
+    {
+      "Diameter": 42.0,
+      "HoleTolerance": 0.0,
+      "along": 84.0,
+      "across": 63.0,
+      "Description": "dl=42"
+    },
+    {
+      "Diameter": 42.0,
+      "HoleTolerance": 1.0,
+      "along": 86.0,
+      "across": 64.5,
+      "Description": "dl=43"
+    },
+    {
+      "Diameter": 42.0,
+      "HoleTolerance": 2.0,
+      "along": 88.0,
+      "across": 66.0,
+      "Description": "dl=44"
+    },
+    {
+      "Diameter": 45.0,
+      "HoleTolerance": 1.0,
+      "along": 1.0,
+      "across": 1.0,
+      "Description": " "
+    },
+    {
+      "Diameter": 48.0,
+      "HoleTolerance": 0.0,
+      "along": 96.0,
+      "across": 72.0,
+      "Description": "dl=48"
+    },
+    {
+      "Diameter": 48.0,
+      "HoleTolerance": 1.0,
+      "along": 98.0,
+      "across": 73.5,
+      "Description": "dl=49"
+    },
+    {
+      "Diameter": 48.0,
+      "HoleTolerance": 2.0,
+      "along": 100.0,
+      "across": 75.0,
+      "Description": "dl=50"
+    },
+    {
+      "Diameter": 52.0,
+      "HoleTolerance": 1.0,
+      "along": 1.0,
+      "across": 1.0,
+      "Description": " "
+    },
+    {
+      "Diameter": 56.0,
+      "HoleTolerance": 0.0,
+      "along": 112.0,
+      "across": 84.0,
+      "Description": "dl=56"
+    },
+    {
+      "Diameter": 56.0,
+      "HoleTolerance": 1.0,
+      "along": 114.0,
+      "across": 85.5,
+      "Description": "dl=57"
+    },
+    {
+      "Diameter": 56.0,
+      "HoleTolerance": 2.0,
+      "along": 116.0,
+      "across": 87.0,
+      "Description": "dl=58"
+    },
+    {
+      "Diameter": 64.0,
+      "HoleTolerance": 0.0,
+      "along": 128.0,
+      "across": 96.0,
+      "Description": "dl=64"
+    },
+    {
+      "Diameter": 64.0,
+      "HoleTolerance": 1.0,
+      "along": 130.0,
+      "across": 97.5,
+      "Description": "dl=65"
+    },
+    {
+      "Diameter": 64.0,
+      "HoleTolerance": 2.0,
+      "along": 132.0,
+      "across": 99.0,
+      "Description": "dl=66"
+    }
+  ]
+}

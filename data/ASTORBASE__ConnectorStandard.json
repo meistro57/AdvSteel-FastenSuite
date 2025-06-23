@@ -1,0 +1,66 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "ConnectorStandard",
+  "data": [
+    {
+      "Key": "13918 DU",
+      "RunName": "13918 DU",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "13918 FD",
+      "RunName": "13918 FD",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "13918 IT",
+      "RunName": "13918 IT",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "13918 PD",
+      "RunName": "13918 PD",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "13918 PT",
+      "RunName": "13918 PT",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "13918 SD",
+      "RunName": "13918 SD",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "13918 UT",
+      "RunName": "13918 UT",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Nelson H4L",
+      "RunName": "Nelson H4L",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Nelson H4L-Inch",
+      "RunName": "Nelson H4L-Inch",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Nelson S3L",
+      "RunName": "Nelson S3L",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Nelson S3L-Inch",
+      "RunName": "Nelson S3L-Inch",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "THRD.STUD",
+      "RunName": "THRD.STUD",
+      "OwnerText": "My Company"
+    }
+  ]
+}

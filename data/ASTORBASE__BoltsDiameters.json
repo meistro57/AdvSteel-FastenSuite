@@ -1,0 +1,321 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "BoltsDiameters",
+  "data": [
+    {
+      "Key": 1.6,
+      "RunName": "1.6 mm",
+      "Description": null
+    },
+    {
+      "Key": 2.0,
+      "RunName": "2 mm",
+      "Description": null
+    },
+    {
+      "Key": 2.4,
+      "RunName": " 2.40 mm",
+      "Description": null
+    },
+    {
+      "Key": 2.5,
+      "RunName": "2.5 mm",
+      "Description": null
+    },
+    {
+      "Key": 3.0,
+      "RunName": " 3.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 3.2,
+      "RunName": " 3.20 mm",
+      "Description": null
+    },
+    {
+      "Key": 4.0,
+      "RunName": " 4.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 4.8,
+      "RunName": " 4.80 mm",
+      "Description": " "
+    },
+    {
+      "Key": 5.0,
+      "RunName": "  5.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 6.0,
+      "RunName": "  6.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 6.35,
+      "RunName": " 1/4 inch",
+      "Description": null
+    },
+    {
+      "Key": 6.4,
+      "RunName": " 6.40 mm",
+      "Description": null
+    },
+    {
+      "Key": 7.0,
+      "RunName": "7",
+      "Description": " "
+    },
+    {
+      "Key": 7.9375,
+      "RunName": " 5/16 inch",
+      "Description": null
+    },
+    {
+      "Key": 8.0,
+      "RunName": "  8.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 9.525,
+      "RunName": " 3/8 inch",
+      "Description": null
+    },
+    {
+      "Key": 10.0,
+      "RunName": " 10.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 12.0,
+      "RunName": " 12.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 12.7,
+      "RunName": " 1/2 inch",
+      "Description": null
+    },
+    {
+      "Key": 14.0,
+      "RunName": " 14.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 15.875,
+      "RunName": " 5/8 inch",
+      "Description": null
+    },
+    {
+      "Key": 16.0,
+      "RunName": " 16.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 18.0,
+      "RunName": " 18.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 19.05,
+      "RunName": " 3/4 inch",
+      "Description": null
+    },
+    {
+      "Key": 20.0,
+      "RunName": " 20.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 22.0,
+      "RunName": " 22.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 22.225,
+      "RunName": " 7/8 inch",
+      "Description": null
+    },
+    {
+      "Key": 24.0,
+      "RunName": " 24.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 25.4,
+      "RunName": " 1 inch",
+      "Description": null
+    },
+    {
+      "Key": 27.0,
+      "RunName": " 27.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 28.575,
+      "RunName": " 1 1/8 inch",
+      "Description": null
+    },
+    {
+      "Key": 30.0,
+      "RunName": " 30.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 31.75,
+      "RunName": " 1 1/4 inch",
+      "Description": null
+    },
+    {
+      "Key": 33.0,
+      "RunName": " 33.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 34.925,
+      "RunName": " 1 3/8 inch",
+      "Description": null
+    },
+    {
+      "Key": 36.0,
+      "RunName": " 36.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 38.1,
+      "RunName": " 1 1/2 inch",
+      "Description": null
+    },
+    {
+      "Key": 39.0,
+      "RunName": "39",
+      "Description": " "
+    },
+    {
+      "Key": 41.275,
+      "RunName": "1 5/8 inch",
+      "Description": null
+    },
+    {
+      "Key": 42.0,
+      "RunName": " 42.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 44.45,
+      "RunName": "1 3/4 inch",
+      "Description": null
+    },
+    {
+      "Key": 45.0,
+      "RunName": "45",
+      "Description": " "
+    },
+    {
+      "Key": 47.625,
+      "RunName": "1 7/8 inch",
+      "Description": null
+    },
+    {
+      "Key": 48.0,
+      "RunName": " 48.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 50.8,
+      "RunName": "2 inch",
+      "Description": null
+    },
+    {
+      "Key": 52.0,
+      "RunName": "52",
+      "Description": " "
+    },
+    {
+      "Key": 56.0,
+      "RunName": " 56.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 57.15,
+      "RunName": "2 1/4 inch",
+      "Description": null
+    },
+    {
+      "Key": 63.5,
+      "RunName": "2 1/2 inch",
+      "Description": null
+    },
+    {
+      "Key": 64.0,
+      "RunName": " 64.00 mm",
+      "Description": null
+    },
+    {
+      "Key": 69.85,
+      "RunName": "2 3/4 inch",
+      "Description": null
+    },
+    {
+      "Key": 72.0,
+      "RunName": "72.00 мм",
+      "Description": null
+    },
+    {
+      "Key": 76.2,
+      "RunName": "3 inch",
+      "Description": null
+    },
+    {
+      "Key": 80.0,
+      "RunName": "80.00 мм",
+      "Description": null
+    },
+    {
+      "Key": 82.55,
+      "RunName": "3 1/4 inch",
+      "Description": null
+    },
+    {
+      "Key": 88.9,
+      "RunName": "3 1/2 inch",
+      "Description": null
+    },
+    {
+      "Key": 90.0,
+      "RunName": "90.00 мм",
+      "Description": null
+    },
+    {
+      "Key": 95.25,
+      "RunName": "3 3/4 inch",
+      "Description": null
+    },
+    {
+      "Key": 100.0,
+      "RunName": "100.00 мм",
+      "Description": null
+    },
+    {
+      "Key": 101.6,
+      "RunName": "4 inch",
+      "Description": null
+    },
+    {
+      "Key": 110.0,
+      "RunName": "110.00 мм",
+      "Description": null
+    },
+    {
+      "Key": 125.0,
+      "RunName": "125.00 мм",
+      "Description": null
+    },
+    {
+      "Key": 140.0,
+      "RunName": "140.00 мм",
+      "Description": null
+    }
+  ]
+}
