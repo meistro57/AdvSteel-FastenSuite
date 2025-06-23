@@ -1,0 +1,23 @@
+<!-- templates/sql_tables.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SQL Tables</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+  <div class="container">
+    <h1>SQL Tables</h1>
+    {% if error %}
+      <div class="alert alert-danger" role="alert">{{ error }}</div>
+    {% endif %}
+    <ul class="list-group mt-4">
+      {% for table in tables %}
+        <li class="list-group-item"><a href="{{ url_for('query_sql_table', table_name=table) }}">{{ table }}</a></li>
+      {% endfor %}
+    </ul>
+    <a class="btn btn-secondary mt-3" href="/">← Back</a>
+  </div>
+</body>
+</html>

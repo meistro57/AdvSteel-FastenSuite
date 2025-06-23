@@ -17,3 +17,10 @@ DB_CONFIG = {
     'trusted_connection': 'yes',
     'driver': 'ODBC Driver 17 for SQL Server'
 }
+
+# Default database used by the web SQL interface
+DEFAULT_DATABASE = 'ASTORBASE'
+
+# Enable development read-only mode. When True, editing routes are disabled
+# and the UI will not allow saving changes.
+READ_ONLY = True
