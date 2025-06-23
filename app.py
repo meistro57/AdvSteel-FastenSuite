@@ -1,6 +1,7 @@
 # app.py
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 import os
+from werkzeug.utils import safe_join
 import json
 import pyodbc
 from utils.json_handler import load_json, save_json
@@ -9,6 +10,16 @@ from config import DB_CONFIG, DEFAULT_DATABASE, READ_ONLY, SQL_DIRECT_MODE
 
 app = Flask(__name__)
 DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
+
+
+def sanitize_filename(filename: str) -> str:
+    """Return the filename if safe, otherwise raise ValueError."""
+    sanitized = os.path.basename(filename)
+    if sanitized != filename or os.path.sep in sanitized or (
+        os.path.altsep and os.path.altsep in sanitized
+    ):
+        raise ValueError("Invalid filename")
+    return sanitized
 
 
 def connect_sql_server(database: str = DEFAULT_DATABASE):
@@ -34,6 +45,7 @@ def parse_sql_path(filename: str):
 
 def load_table_data(filename: str):
     """Load table rows from JSON or SQL depending on configuration."""
+    filename = sanitize_filename(filename)
     if SQL_DIRECT_MODE:
         db, table = parse_sql_path(filename)
         conn, cur = connect_sql_server(db)
@@ -43,12 +55,13 @@ def load_table_data(filename: str):
         conn.close()
         return rows
     else:
-        path = os.path.join(DATA_DIR, filename)
+        path = safe_join(DATA_DIR, filename)
         return load_json(path)["data"]
 
 
 def save_table_data(filename: str, json_string: str) -> None:
     """Save table rows to JSON file or SQL table."""
+    filename = sanitize_filename(filename)
     rows = json.loads(json_string)
     if SQL_DIRECT_MODE:
         db, table = parse_sql_path(filename)
@@ -65,7 +78,7 @@ def save_table_data(filename: str, json_string: str) -> None:
             )
         conn.close()
     else:
-        path = os.path.join(DATA_DIR, filename)
+        path = safe_join(DATA_DIR, filename)
         existing = load_json(path)
         if isinstance(existing, dict) and "data" in existing:
             existing["data"] = rows
