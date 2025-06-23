@@ -1,79 +1,69 @@
 # 🔩 AdvSteel FastenSuite
 
-**AdvSteel FastenSuite** is a modern web-based toolkit for browsing, editing, and managing fastener data—bolts, anchors, and beyond—for **Advance Steel 2025**. Built with Flask and Bootstrap, it lets you escape the chaos of Management Tools and dive straight into your `.json` exports or SQL data with clarity and control.
+**AdvSteel FastenSuite** is a lightweight Flask application for browsing and editing Advance Steel fastener data. It provides a clean web interface for working with your exported `.json` files (or SQL data) without the pain of Management Tools.
 
 ---
 
 ## 🛠️ Features
 
-- View Advance Steel bolt and anchor tables in a clean browser UI
-- Supports all major fastener tables:
+- View Advance Steel bolt and anchor tables in the browser
+- Supports major fastener tables:
   - `BoltDefinition`
   - `BoltsDiameters`
   - `BoltsCoating`
   - `BoltsDistances`
   - `AnchorsDefinition`
   - `AnchorsClass`, `AnchorsStandard`, and more
-- Simple inline editing of table values (coming soon)
-- JSON-based workflow (SQL integration optional)
-- Built with Flask + Bootstrap 5 — lightweight and shareable
+- JSON-based workflow with optional SQL integration
+- Built with Flask and Bootstrap 5
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repo
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/advsteel-fastensuite.git
+   cd advsteel-fastensuite
+   ```
+2. **Set up a virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   pip install -r requirements.txt
+   ```
+3. **Run the app**
+   ```bash
+   python app.py
+   ```
+   Open <http://127.0.0.1:5000> in your browser.
 
-```bash
-git clone https://github.com/yourusername/advsteel-fastensuite.git
-cd advsteel-fastensuite
-2. Set up the virtual environment
-bash
-Copy
-Edit
-python -m venv venv
-venv\Scripts\activate  # On Windows
-pip install -r requirements.txt
-3. Run the app
-bash
-Copy
-Edit
-python app.py
-The app will launch at http://127.0.0.1:5000
+### JSON File Structure
+Place your exported `.json` files in the `data/` directory:
 
-📂 JSON File Structure
-Place all your exported .json files in the /data folder.
-
-Example:
-
-bash
-Copy
-Edit
+```
 /data
 ├── ASTORBASE__BoltDefinition.json
 ├── ASTORBASE__BoltsDiameters.json
 ├── ASTORBASE__AnchorsDefinition.json
 └── ...
-📋 Roadmap
-✅ Tabbed UI for bolts and anchors
+```
 
-⏳ Inline editing + table validation
+## 📋 Roadmap
+- ✔️ Tabbed UI for bolts and anchors
+- ⏳ Inline editing with table validation
+- ⏳ SQL direct mode (read/write)
+- ⏳ Add row / delete row support
+- ⏳ User roles & access protection
+- ⏳ Portable deployment (LAN, Docker, etc.)
 
-⏳ SQL direct mode (read/write)
-
-⏳ Add row / delete row support
-
-⏳ User roles & access protection
-
-⏳ Portable deployment (LAN, Docker, etc.)
-
-🧠 Why?
+## 🧠 Why?
 Advance Steel makes modifying bolts and anchors a pain. This app changes that.
 
-👷‍♂️ Built By
-Mark Hubrich
-Steel wizard. Creator of magic. Purveyor of bolts.
-“I got tired of Management Tools. So I built my own.”
+## 👷‍♂️ Built By
+Mark Hubrich  
+Steel wizard. Creator of magic. Purveyor of bolts.  
+"I got tired of Management Tools. So I built my own."
 
-🧲 License
+## 🧲 License
 MIT — Use it, fork it, make it better. Just don’t weld it closed.
