@@ -34,7 +34,10 @@
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
    ```
-3. **Run the app**
+3. **Choose your Advance Steel version**
+   Edit `config.py` and set `ADVANCE_STEEL_VERSION` to one of `2026`, `2025`, `2024`, or `2023`.
+
+4. **Run the app**
    ```bash
    python app.py
    ```
