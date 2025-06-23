@@ -24,3 +24,7 @@ DEFAULT_DATABASE = 'ASTORBASE'
 # Enable development read-only mode. When True, editing routes are disabled
 # and the UI will not allow saving changes.
 READ_ONLY = True
+
+# When enabled, the web interface loads and saves data directly from the SQL
+# databases instead of the JSON files in the data directory.
+SQL_DIRECT_MODE = False
