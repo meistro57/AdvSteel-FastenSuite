@@ -1,0 +1,171 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "Sets",
+  "data": [
+    {
+      "Key": "2M",
+      "RunName": "2N",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "2Mu3S",
+      "RunName": "2Na3W",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "2MuS",
+      "RunName": "2NaW",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "2Na2W",
+      "RunName": "2Na2W",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "2Na2W+N",
+      "RunName": "2Na2W+N",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "3Na2W",
+      "RunName": "3Na2W",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "CE Mark BZP",
+      "RunName": "CE Mark BZP",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "CE Mark Galv",
+      "RunName": "CE Mark Galv",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Dome Nut",
+      "RunName": "Dome Nut",
+      "OwnerText": "GRAITEC"
+    },
+    {
+      "Key": "Fire",
+      "RunName": "Fire",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "FZA-I",
+      "RunName": "FZA-I",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "M",
+      "RunName": "N",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Mu2S",
+      "RunName": "Na2W",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Mu3S",
+      "RunName": "Na3W",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "MuKS",
+      "RunName": "NaWW",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "MuKSI",
+      "RunName": "NaWWI",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "MuKSU",
+      "RunName": "NaWWU",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "MuKSUA",
+      "RunName": "NaWWA",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "MuLwS",
+      "RunName": "NaW Lock",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "MuS",
+      "RunName": "NaW",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "MuTwS",
+      "RunName": "NaW Tapered",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "NaW+N",
+      "RunName": "NaW+N",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "NaWWspecial",
+      "RunName": "NaWWspecial",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "noNaW",
+      "RunName": "Setless",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Set",
+      "RunName": "Set",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Sr1P",
+      "RunName": "Sr1P",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Srp1P",
+      "RunName": "Srp1P",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Standard",
+      "RunName": "Standard",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "SwMu",
+      "RunName": "WeNu",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "Tapered",
+      "RunName": "Tapered",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "TOP-H",
+      "RunName": "TOP-H",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "W",
+      "RunName": "W",
+      "OwnerText": "DSC"
+    },
+    {
+      "Key": "W+WN",
+      "RunName": "W+WN",
+      "OwnerText": "DSC"
+    }
+  ]
+}

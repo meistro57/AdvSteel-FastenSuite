@@ -1,0 +1,18 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "ScrewHoleLocation",
+  "data": [
+    {
+      "Key": 1,
+      "RunName": "All"
+    },
+    {
+      "Key": 2,
+      "RunName": "First"
+    },
+    {
+      "Key": 3,
+      "RunName": "Last"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "SetBoltsType",
+  "data": [
+    {
+      "Key": 1,
+      "RunName": "Bolt",
+      "Bitmap": "Bolt",
+      "Standard": "Standard",
+      "Material": "StrengthClass",
+      "Coating": "BoltsCoating",
+      "Diameter": "BoltsDiameters",
+      "Distances": "BoltsDistances"
+    },
+    {
+      "Key": 2,
+      "RunName": "Shear stud",
+      "Bitmap": "Stud",
+      "Standard": "ConnectorStandard",
+      "Material": "ConnectorMaterial",
+      "Coating": "BoltsCoating",
+      "Diameter": "ConnectorDiameters",
+      "Distances": "ConnectorDistances"
+    },
+    {
+      "Key": 3,
+      "RunName": "Tie bolt",
+      "Bitmap": "Tie",
+      "Standard": "Standard",
+      "Material": "StrengthClass",
+      "Coating": "BoltsCoating",
+      "Diameter": "BoltsDiameters",
+      "Distances": "BoltsDistances"
+    }
+  ]
+}

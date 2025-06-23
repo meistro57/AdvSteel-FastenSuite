@@ -1,0 +1,21 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "ScrewTypes",
+  "data": [
+    {
+      "Key": 1,
+      "RunName": "Nut",
+      "Bitmap": "Nut"
+    },
+    {
+      "Key": 2,
+      "RunName": "Washer",
+      "Bitmap": "Washer"
+    },
+    {
+      "Key": 3,
+      "RunName": "Peg",
+      "Bitmap": "Peg"
+    }
+  ]
+}

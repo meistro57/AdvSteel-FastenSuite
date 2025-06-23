@@ -1,0 +1,34 @@
+{
+  "_source_database": "ASTORBASE",
+  "_table_name": "ScrewHoleType",
+  "data": [
+    {
+      "Key": 1,
+      "RunName": "Round hole"
+    },
+    {
+      "Key": 2,
+      "RunName": "Slotted hole"
+    },
+    {
+      "Key": 3,
+      "RunName": "Countersink"
+    },
+    {
+      "Key": 4,
+      "RunName": "Blind hole"
+    },
+    {
+      "Key": 5,
+      "RunName": "Threaded hole"
+    },
+    {
+      "Key": 6,
+      "RunName": "Countersunk hole"
+    },
+    {
+      "Key": 7,
+      "RunName": "Punch mark"
+    }
+  ]
+}
