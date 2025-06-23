@@ -48,6 +48,8 @@
    python app.py
    ```
    Open <http://127.0.0.1:5000> in your browser.
+   On Windows you can run `deploy.bat` to automatically pull the latest
+   changes, activate the virtual environment, and start the app.
 
 ### JSON File Structure
 Place your exported `.json` files in the `data/` directory:
