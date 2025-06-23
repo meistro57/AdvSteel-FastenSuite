@@ -2,28 +2,13 @@
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 import os
 import json
-import pyodbc
 from utils.json_handler import load_json, save_json
 from utils.search_utils import filter_data, query_data
-from config import DB_CONFIG, DEFAULT_DATABASE, READ_ONLY, SQL_DIRECT_MODE
+from config import DEFAULT_DATABASE, READ_ONLY, SQL_DIRECT_MODE
+from utils.db import connect_sql_server
 
 app = Flask(__name__)
 DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
-
-
-def connect_sql_server(database: str = DEFAULT_DATABASE):
-    """Return a connection object to the configured SQL Server."""
-    conn_str = (
-        f"DRIVER={{{DB_CONFIG['driver']}}};"
-        f"SERVER={DB_CONFIG['server']};"
-        f"Trusted_Connection={DB_CONFIG['trusted_connection']};"
-    )
-    conn = pyodbc.connect(conn_str, autocommit=True)
-    cursor = conn.cursor()
-    if database:
-        cursor.execute(f"USE [{database}]")
-    return conn, cursor
-
 
 def parse_sql_path(filename: str):
     """Return (database, table) parsed from a data filename."""

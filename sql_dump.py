@@ -2,21 +2,9 @@
 
 import os
 import json
-import pyodbc
-from config import DB_CONFIG
+from utils.db import connect_sql_server
 
 OUTPUT_DIR = "sql_dump"
-
-def connect_sql_server():
-    conn_str = (
-        f"DRIVER={{{DB_CONFIG['driver']}}};"
-        f"SERVER={DB_CONFIG['server']};"
-        f"Trusted_Connection={DB_CONFIG['trusted_connection']};"
-    )
-    print(f"🔌 Connecting to {DB_CONFIG['server']}...")
-    conn = pyodbc.connect(conn_str, autocommit=True)
-    print("✅ Connected successfully.")
-    return conn
 
 def get_databases(cursor):
     cursor.execute("SELECT name, database_id FROM sys.databases ORDER BY name")
