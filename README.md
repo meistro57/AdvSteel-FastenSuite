@@ -17,6 +17,7 @@
 - JSON-based workflow with optional SQL integration
 - Built with Flask and Bootstrap 5
 - Simple HTTP endpoint for filtering and querying table rows
+- Command line script for running direct SQL queries
 
 ---
 
@@ -57,6 +58,14 @@ Use the `/search/<filename>` endpoint to filter or search rows:
 curl "http://127.0.0.1:5000/search/ASTORBASE__BoltsDiameters.json?q=20"
 curl "http://127.0.0.1:5000/search/ASTORBASE__BoltDefinition.json?Diameter=20&Name=Hex"
 ```
+
+### Running Direct SQL Queries
+You can query your Advance Steel databases directly using `sql_query.py`:
+
+```bash
+python sql_query.py -d ASTORBASE "SELECT TOP 5 * FROM BoltDefinition"
+```
+Use the `-o json` option to output results as JSON.
 
 ## 📋 Roadmap
 - ✔️ Tabbed UI for bolts and anchors
