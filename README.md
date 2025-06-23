@@ -20,6 +20,7 @@
 - Command line script for running direct SQL queries
 - Optional SQL browser with simple query interface
 - Development read-only mode to prevent accidental changes
+- SQL direct mode for editing tables without JSON exports
 
 ---
 
@@ -40,6 +41,7 @@
    Edit `config.py` and set `ADVANCE_STEEL_VERSION` to one of `2026`, `2025`, `2024`, or `2023`.
    You can also enable or disable `READ_ONLY` mode in this file. When enabled the
    web interface will prevent saving changes.
+   Set `SQL_DIRECT_MODE = True` to read and write directly from your SQL Server databases.
 
 4. **Run the app**
    ```bash
@@ -81,7 +83,7 @@ queries through the web interface.
 ## 📋 Roadmap
 - ✔️ Tabbed UI for bolts and anchors
 - ⏳ Inline editing with table validation
-- ⏳ SQL direct mode (read/write)
+- ✔️ SQL direct mode (read/write)
 - ⏳ Add row / delete row support
 - ⏳ User roles & access protection
 - ⏳ Portable deployment (LAN, Docker, etc.)
