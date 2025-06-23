@@ -19,8 +19,10 @@
 <body class="p-4">
   <div class="container">
     <h1>{{ filename }}</h1>
-    <textarea id="json_data" class="form-control" rows="25">{{ table | tojson(indent=2) }}</textarea>
+    <textarea id="json_data" class="form-control" rows="25" {% if read_only %}readonly{% endif %}>{{ table | tojson(indent=2) }}</textarea>
+    {% if not read_only %}
     <button class="btn btn-success mt-3" onclick="saveTable()">💾 Save Changes</button>
+    {% endif %}
     <a class="btn btn-secondary mt-3" href="/">← Back</a>
   </div>
 </body>

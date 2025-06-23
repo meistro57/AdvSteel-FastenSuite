@@ -18,6 +18,8 @@
 - Built with Flask and Bootstrap 5
 - Simple HTTP endpoint for filtering and querying table rows
 - Command line script for running direct SQL queries
+- Optional SQL browser with simple query interface
+- Development read-only mode to prevent accidental changes
 
 ---
 
@@ -36,6 +38,8 @@
    ```
 3. **Choose your Advance Steel version**
    Edit `config.py` and set `ADVANCE_STEEL_VERSION` to one of `2026`, `2025`, `2024`, or `2023`.
+   You can also enable or disable `READ_ONLY` mode in this file. When enabled the
+   web interface will prevent saving changes.
 
 4. **Run the app**
    ```bash
@@ -69,6 +73,10 @@ You can query your Advance Steel databases directly using `sql_query.py`:
 python sql_query.py -d ASTORBASE "SELECT TOP 5 * FROM BoltDefinition"
 ```
 Use the `-o json` option to output results as JSON.
+
+### SQL Browser
+Navigate to `/sql` in the running app to view available tables and run simple
+queries through the web interface.
 
 ## 📋 Roadmap
 - ✔️ Tabbed UI for bolts and anchors

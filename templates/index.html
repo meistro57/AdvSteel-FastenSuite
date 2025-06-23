@@ -9,6 +9,12 @@
 <body class="p-4">
   <div class="container">
     <h1>BoltForge Web</h1>
+    {% if read_only %}
+      <div class="alert alert-warning" role="alert">
+        Read-only mode enabled. Editing is disabled.
+      </div>
+    {% endif %}
+    <p><a href="{{ url_for('list_sql_tables') }}">SQL Browser</a></p>
     <ul class="list-group mt-4">
       {% for file in files %}
         <li class="list-group-item">
