@@ -3,22 +3,8 @@
 
 import argparse
 import json
-import pyodbc
 from typing import List, Dict, Optional, Any
-from config import DB_CONFIG
-
-
-def connect_sql_server():
-    """Connect to the SQL Server using settings from config.py."""
-    conn_str = (
-        f"DRIVER={{{DB_CONFIG['driver']}}};"
-        f"SERVER={DB_CONFIG['server']};"
-        f"Trusted_Connection={DB_CONFIG['trusted_connection']};"
-    )
-    print(f"🔌 Connecting to {DB_CONFIG['server']}...")
-    conn = pyodbc.connect(conn_str, autocommit=True)
-    print("✅ Connected successfully.")
-    return conn
+from utils.db import connect_sql_server
 
 
 def run_query(cursor, query: str, database: Optional[str] = None) -> List[Dict[str, Any]]:
