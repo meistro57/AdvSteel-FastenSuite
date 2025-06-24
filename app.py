@@ -2,6 +2,7 @@
 from flask import Flask, render_template, request, redirect, url_for, jsonify
 import os
 import json
+
 from utils.json_handler import load_json, save_json
 from utils.search_utils import filter_data, query_data
 from config import DEFAULT_DATABASE, READ_ONLY, SQL_DIRECT_MODE
@@ -9,6 +10,7 @@ from utils.db import connect_sql_server
 
 app = Flask(__name__)
 DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
+
 
 def parse_sql_path(filename: str):
     """Return (database, table) parsed from a data filename."""
@@ -58,14 +60,20 @@ def save_table_data(filename: str, json_string: str) -> None:
         else:
             save_json(path, json_string)
 
+
 @app.route('/')
 def index():
     if SQL_DIRECT_MODE:
         files = []
         try:
             conn, cur = connect_sql_server()
-            cur.execute("SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'")
-            files = [f"{DEFAULT_DATABASE}__{row[0]}.json" for row in cur.fetchall()]
+            cur.execute(
+                "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES "
+                "WHERE TABLE_TYPE='BASE TABLE'"
+            )
+            files = [
+                f"{DEFAULT_DATABASE}__{row[0]}.json" for row in cur.fetchall()
+            ]
             conn.close()
         except Exception:
             files = []
@@ -73,10 +81,16 @@ def index():
         files = [f for f in os.listdir(DATA_DIR) if f.endswith('.json')]
     return render_template('index.html', files=files, read_only=READ_ONLY)
 
+
 @app.route('/view/<filename>')
 def view_table(filename):
     rows = load_table_data(filename)
-    return render_template('edit_table.html', filename=filename, table=rows, read_only=READ_ONLY)
+    return render_template(
+        'edit_table.html',
+        filename=filename,
+        table=rows,
+        read_only=READ_ONLY,
+    )
 
 
 @app.route('/search/<filename>')
@@ -95,6 +109,7 @@ def search_table(filename):
 
     return jsonify(table_data)
 
+
 if not READ_ONLY:
     @app.route('/save/<filename>', methods=['POST'])
     def save_table(filename):
@@ -110,7 +125,10 @@ def list_sql_tables():
     error = None
     try:
         conn, cur = connect_sql_server()
-        cur.execute("SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE='BASE TABLE'")
+        cur.execute(
+            "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES "
+            "WHERE TABLE_TYPE='BASE TABLE'"
+        )
         tables = [row[0] for row in cur.fetchall()]
         conn.close()
     except Exception as e:
@@ -123,7 +141,11 @@ def query_sql_table(table_name):
     """Simple interface to run a SELECT query against a table."""
     results = None
     error = None
-    query = request.form.get('query') if request.method == 'POST' else f"SELECT TOP 100 * FROM [{table_name}]"
+    query = (
+        request.form.get('query')
+        if request.method == 'POST'
+        else f"SELECT TOP 100 * FROM [{table_name}]"
+    )
     if request.method == 'POST':
         try:
             conn, cur = connect_sql_server()
@@ -137,7 +159,15 @@ def query_sql_table(table_name):
             conn.close()
         except Exception as e:
             error = str(e)
-    return render_template('sql_query.html', table_name=table_name, query=query, results=results, error=error)
+    return render_template(
+        'sql_query.html',
+        table_name=table_name,
+        query=query,
+        results=results,
+        error=error,
+
+    )
+
 
 if __name__ == '__main__':
     app.run(debug=True)

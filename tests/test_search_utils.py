@@ -1,4 +1,3 @@
-import pytest
 
 from utils.search_utils import filter_data, query_data
 
@@ -36,4 +35,3 @@ def test_query_data_returns_multiple_rows():
         {"id": 1, "name": "Bolt", "size": "M10"},
         {"id": 3, "name": "Washer", "size": "M10"},
     ]
-

@@ -1,1 +1,7 @@
-tmp
+body {
+    font-family: Arial, sans-serif;
+}
+
+pre {
+    white-space: pre-wrap;
+}

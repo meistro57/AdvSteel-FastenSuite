@@ -1,2 +1,2 @@
 pyodbc
-PySide6
+Flask
