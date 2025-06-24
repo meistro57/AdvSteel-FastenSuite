@@ -78,6 +78,17 @@ python sql_query.py -d ASTORBASE "SELECT TOP 5 * FROM BoltDefinition"
 ```
 Use the `-o json` option to output results as JSON.
 
+### Testing the SQL Server Connection
+Run `check_db_connection.py` to quickly verify that your
+`config.py` settings can successfully connect to SQL Server:
+
+```bash
+python check_db_connection.py
+```
+The script will attempt to connect using the configured driver and
+server. It prints a success message if the connection works or an
+error message otherwise.
+
 ### SQL Browser
 Navigate to `/sql` in the running app to view available tables and run simple
 queries through the web interface.
