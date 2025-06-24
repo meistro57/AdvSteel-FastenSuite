@@ -6,6 +6,7 @@ from utils.db import connect_sql_server
 
 OUTPUT_DIR = "sql_dump"
 
+
 def get_databases(cursor):
     cursor.execute("SELECT name, database_id FROM sys.databases ORDER BY name")
     all_dbs = [row.name for row in cursor.fetchall()]
@@ -20,12 +21,18 @@ def get_databases(cursor):
             filtered.append(db)
     return filtered
 
+
 def sanitize_name(mdf_path):
     return os.path.splitext(os.path.basename(mdf_path))[0].upper()
 
+
 def get_tables(cursor):
-    cursor.execute("SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE'")
+    cursor.execute(
+        "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES "
+        "WHERE TABLE_TYPE = 'BASE TABLE'"
+    )
     return [row[0] for row in cursor.fetchall()]
+
 
 def dump_table(cursor, db_name, table_name):
     try:
@@ -48,6 +55,7 @@ def dump_table(cursor, db_name, table_name):
     except Exception as e:
         print(f"❌ Failed to dump {db_name}.{table_name}: {e}")
 
+
 def main():
     conn = connect_sql_server()
     cursor = conn.cursor()
@@ -69,6 +77,7 @@ def main():
 
     conn.close()
     print("\n🎉 Dump complete.")
+
 
 if __name__ == "__main__":
     main()

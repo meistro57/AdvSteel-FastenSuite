@@ -7,7 +7,11 @@ from typing import List, Dict, Optional, Any
 from utils.db import connect_sql_server
 
 
-def run_query(cursor, query: str, database: Optional[str] = None) -> List[Dict[str, Any]]:
+def run_query(
+    cursor,
+    query: str,
+    database: Optional[str] = None,
+) -> List[Dict[str, Any]]:
     """Execute a SQL query and return results as a list of dicts."""
     if database:
         cursor.execute(f"USE [{database}]")
@@ -38,7 +42,11 @@ def format_table(rows: List[Dict[str, Any]]) -> str:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Run a direct SQL query.")
     parser.add_argument("query", help="SQL statement to execute")
-    parser.add_argument("-d", "--database", help="Database to USE before executing")
+    parser.add_argument(
+        "-d",
+        "--database",
+        help="Database to USE before executing",
+    )
     parser.add_argument(
         "-o",
         "--output",

@@ -3,7 +3,10 @@
 from typing import Any, Dict, Iterable, List
 
 
-def filter_data(rows: Iterable[Dict[str, Any]], **filters: Any) -> List[Dict[str, Any]]:
+def filter_data(
+    rows: Iterable[Dict[str, Any]],
+    **filters: Any,
+) -> List[Dict[str, Any]]:
     """Return a list of rows that match all given key/value filters.
 
     Parameters
@@ -26,7 +29,10 @@ def filter_data(rows: Iterable[Dict[str, Any]], **filters: Any) -> List[Dict[str
     return result
 
 
-def query_data(rows: Iterable[Dict[str, Any]], term: str) -> List[Dict[str, Any]]:
+def query_data(
+    rows: Iterable[Dict[str, Any]],
+    term: str,
+) -> List[Dict[str, Any]]:
     """Return a list of rows containing the search term in any value."""
     term_lower = str(term).lower()
     result = []

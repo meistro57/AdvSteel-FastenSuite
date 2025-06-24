@@ -11,4 +11,3 @@ def test_load_save_round_trip(tmp_path):
     loaded = load_json(file_path)
 
     assert loaded == data
-
