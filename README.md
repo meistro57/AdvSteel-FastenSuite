@@ -28,8 +28,8 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/meistro57/AdvSteel-FastenSuite.git
-   cd advsteel-fastensuite
+    git clone https://github.com/meistro57/AdvSteel-FastenSuite.git
+    cd AdvSteel-FastenSuite
    ```
 2. **Set up a virtual environment**
    ```bash
@@ -95,6 +95,14 @@ exploring the Advance Steel databases and are handy for maintenance tasks:
   export filtered rows interactively.
 - `check_db_connection.py` – verify that the settings in `config.py` can reach
   your local SQL Server instance.
+
+### Running Tests
+After installing the development dependencies you can run the
+entire test suite with `pytest`:
+
+```bash
+pytest
+```
 
 ## 📋 Roadmap
 - ✔️ Tabbed UI for bolts and anchors
