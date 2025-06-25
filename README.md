@@ -26,6 +26,11 @@
 
 ## 🚀 Getting Started
 
+### Prerequisites
+- [Python](https://www.python.org/) 3.10 or newer with `pip` available in your `PATH`.
+  Verify your installation with `python --version` and `pip --version`.
+  The Windows installer includes `pip`. On Linux or macOS install Python via your package manager.
+
 1. **Clone the repository**
    ```bash
     git clone https://github.com/meistro57/AdvSteel-FastenSuite.git
