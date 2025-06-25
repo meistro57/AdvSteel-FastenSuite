@@ -5,6 +5,7 @@ import json
 from utils.search_utils import filter_data, query_data
 from config import DEFAULT_DATABASE, READ_ONLY
 from utils.db import connect_sql_server
+from utils.units import mm_to_inch, inch_to_mm
 
 app = Flask(__name__)
 
@@ -71,6 +72,7 @@ def view_table(filename):
         filename=filename,
         table=rows,
         read_only=READ_ONLY,
+        save_url=url_for('save_table', filename=filename) if not READ_ONLY else ''
     )
 
 
@@ -89,6 +91,72 @@ def search_table(filename):
         table_data = filter_data(table_data, **filters)
 
     return jsonify(table_data)
+
+
+@app.route('/setbolts')
+def browse_setbolts():
+    """Browse and filter the ASTORBASE SetBolts table."""
+    raw_rows = load_table_data('ASTORBASE__SetBolts.json')
+
+    # Build filters from query parameters
+    search_term = request.args.get('q')
+    filters = {}
+    for field in ['Standard', 'Material', 'Name', 'Type']:
+        val = request.args.get(field)
+        if val:
+            filters[field] = val
+    for field in ['Diameter', 'Length', 'HeadHeight']:
+        val = request.args.get(field)
+        if val:
+            try:
+                filters[field] = inch_to_mm(float(val))
+            except ValueError:
+                pass
+
+    rows = raw_rows
+    if search_term:
+        rows = query_data(rows, search_term)
+    if filters:
+        rows = filter_data(rows, **filters)
+
+    # Convert numeric fields to inches for display
+    display_rows = []
+    for row in rows:
+        r = row.copy()
+        for col in ['Diameter', 'Length', 'HeadHeight']:
+            if r.get(col) is not None:
+                r[col] = mm_to_inch(r[col])
+        display_rows.append(r)
+
+    return render_template('setbolts.html', rows=display_rows, read_only=READ_ONLY)
+
+
+@app.route('/setbolts/edit')
+def edit_setbolts():
+    rows = load_table_data('ASTORBASE__SetBolts.json')
+    for row in rows:
+        for col in ['Diameter', 'Length', 'HeadHeight']:
+            if row.get(col) is not None:
+                row[col] = mm_to_inch(row[col])
+    return render_template(
+        'edit_table.html',
+        filename='ASTORBASE__SetBolts.json',
+        table=rows,
+        read_only=READ_ONLY,
+        save_url=url_for('save_setbolts') if not READ_ONLY else ''
+    )
+
+
+if not READ_ONLY:
+    @app.route('/setbolts/save', methods=['POST'])
+    def save_setbolts():
+        updated = json.loads(request.form.get('json_data', '[]'))
+        for row in updated:
+            for col in ['Diameter', 'Length', 'HeadHeight']:
+                if row.get(col) is not None:
+                    row[col] = inch_to_mm(float(row[col]))
+        save_table_data('ASTORBASE__SetBolts.json', json.dumps(updated))
+        return redirect(url_for('edit_setbolts'))
 
 
 if not READ_ONLY:

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SetBolts Browser</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body class="p-4">
+  <div class="container">
+    <h1>SetBolts Browser</h1>
+    <form method="get" class="row gy-2 gx-2 align-items-end">
+      <div class="col-auto">
+        <input type="text" class="form-control" name="q" placeholder="Search" value="{{ request.args.get('q','') }}">
+      </div>
+      <div class="col-auto">
+        <input type="text" class="form-control" name="Standard" placeholder="Standard" value="{{ request.args.get('Standard','') }}">
+      </div>
+      <div class="col-auto">
+        <input type="text" class="form-control" name="Material" placeholder="Material" value="{{ request.args.get('Material','') }}">
+      </div>
+      <div class="col-auto">
+        <input type="number" step="0.01" class="form-control" name="Diameter" placeholder="Diameter (in)" value="{{ request.args.get('Diameter','') }}">
+      </div>
+      <div class="col-auto">
+        <button class="btn btn-primary" type="submit">Filter</button>
+        <a href="{{ url_for('browse_setbolts') }}" class="btn btn-secondary">Clear</a>
+      </div>
+    </form>
+    <table class="table table-striped table-sm mt-3">
+      <thead>
+        <tr>
+          {% if rows %}
+            {% for col in rows[0].keys() %}
+              <th>{{ col }}</th>
+            {% endfor %}
+          {% endif %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in rows %}
+          <tr>
+            {% for value in row.values() %}
+              <td>{{ value }}</td>
+            {% endfor %}
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    <a class="btn btn-secondary mt-3" href="/">← Back</a>
+    {% if not read_only %}
+    <a class="btn btn-outline-secondary mt-3" href="{{ url_for('edit_setbolts') }}">Edit JSON</a>
+    {% endif %}
+  </div>
+</body>
+</html>
