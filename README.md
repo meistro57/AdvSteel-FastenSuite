@@ -93,6 +93,19 @@ error message otherwise.
 Navigate to `/sql` in the running app to view available tables and run simple
 queries through the web interface.
 
+### Utility Scripts
+Several helper scripts are included in the repository. These were used while
+exploring the Advance Steel databases and are handy for maintenance tasks:
+
+- `sql_query.py` – execute arbitrary SQL statements from the command line and
+  view the results as a table or JSON.
+- `sql_dump.py` – dump entire Advance Steel databases to JSON files for quick
+  inspection.
+- `interactive_sql_cli.py` – browse attached `.MDF` files, preview tables and
+  export filtered rows interactively.
+- `check_db_connection.py` – verify that the settings in `config.py` can reach
+  your local SQL Server instance.
+
 ## 📋 Roadmap
 - ✔️ Tabbed UI for bolts and anchors
 - ⏳ Inline editing with table validation
