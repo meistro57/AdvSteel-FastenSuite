@@ -21,6 +21,8 @@
 - Optional SQL browser with simple query interface
 - Development read-only mode to prevent accidental changes
 - Edit tables directly in SQL
+- SetBolts browser with inch/mm unit conversion
+- Advanced filtering with comparison operators (e.g. `__gt`, `__lte`) and partial matching
 
 ---
 
