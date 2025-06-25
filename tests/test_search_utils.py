@@ -24,6 +24,32 @@ def test_filter_data_no_match():
     assert result == []
 
 
+def test_filter_data_numeric_gt():
+    result = filter_data(sample_rows, id__gt=1)
+    assert result == [
+        {"id": 2, "name": "Nut", "size": "M12"},
+        {"id": 3, "name": "Washer", "size": "M10"},
+    ]
+
+
+def test_filter_data_numeric_lt():
+    result = filter_data(sample_rows, id__lt=3)
+    assert result == [
+        {"id": 1, "name": "Bolt", "size": "M10"},
+        {"id": 2, "name": "Nut", "size": "M12"},
+    ]
+
+
+def test_filter_data_case_insensitive():
+    result = filter_data(sample_rows, name="bolt", case_insensitive=True)
+    assert result == [{"id": 1, "name": "Bolt", "size": "M10"}]
+
+
+def test_filter_data_partial_match():
+    result = filter_data(sample_rows, name="ash", partial=True, case_insensitive=True)
+    assert result == [{"id": 3, "name": "Washer", "size": "M10"}]
+
+
 def test_query_data_finds_term_case_insensitive():
     result = query_data(sample_rows, "nu")
     assert result == [{"id": 2, "name": "Nut", "size": "M12"}]
