@@ -36,6 +36,8 @@
    python -m venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    pip install -r requirements.txt
+   # Install development dependencies to run the test suite
+   pip install -r requirements-dev.txt
    ```
 3. **Choose your Advance Steel version**
    Edit `config.py` and set `ADVANCE_STEEL_VERSION` to one of `2026`, `2025`, `2024`, or `2023`.
