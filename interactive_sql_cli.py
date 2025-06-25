@@ -6,7 +6,7 @@ import json
 
 # Predefined search paths
 SEARCH_PATHS = [
-    r'C:\PROGRAMDATA\AUTODESK\ADVANCE STEEL 2025'
+    r'C:\PROGRAMDATA\AUTODESK\ADVANCE STEEL 2025\USA'
 ]
 
 def find_mdf_files():
