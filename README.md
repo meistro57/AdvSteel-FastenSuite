@@ -1,6 +1,6 @@
 # 🔩 AdvSteel FastenSuite
 
-**AdvSteel FastenSuite** is a lightweight Flask application for browsing and editing Advance Steel fastener data. It provides a clean web interface for working with your exported `.json` files (or SQL data) without the pain of Management Tools.
+**AdvSteel FastenSuite** is a lightweight Flask application for browsing and editing Advance Steel fastener data. It provides a clean web interface that works directly with your SQL data without the pain of Management Tools.
 
 ---
 
@@ -14,13 +14,13 @@
   - `BoltsDistances`
   - `AnchorsDefinition`
   - `AnchorsClass`, `AnchorsStandard`, and more
-- JSON-based workflow with optional SQL integration
+- Direct SQL workflow without requiring JSON exports
 - Built with Flask and Bootstrap 5
 - Simple HTTP endpoint for filtering and querying table rows
 - Command line script for running direct SQL queries
 - Optional SQL browser with simple query interface
 - Development read-only mode to prevent accidental changes
-- SQL direct mode for editing tables without JSON exports
+- Edit tables directly in SQL
 
 ---
 
@@ -43,7 +43,6 @@
    Edit `config.py` and set `ADVANCE_STEEL_VERSION` to one of `2026`, `2025`, `2024`, or `2023`.
    You can also enable or disable `READ_ONLY` mode in this file. When enabled the
    web interface will prevent saving changes.
-   Set `SQL_DIRECT_MODE = True` to read and write directly from your SQL Server databases.
 
 4. **Run the app**
    ```bash
@@ -52,17 +51,6 @@
    Open <http://127.0.0.1:5000> in your browser.
    On Windows you can run `deploy.bat` to automatically pull the latest
    changes, activate the virtual environment, and start the app.
-
-### JSON File Structure
-Place your exported `.json` files in the `data/` directory:
-
-```
-/data
-├── ASTORBASE__BoltDefinition.json
-├── ASTORBASE__BoltsDiameters.json
-├── ASTORBASE__AnchorsDefinition.json
-└── ...
-```
 
 ### Querying Tables
 Use the `/search/<filename>` endpoint to filter or search rows:

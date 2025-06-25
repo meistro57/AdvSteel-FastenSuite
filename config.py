@@ -25,6 +25,3 @@ DEFAULT_DATABASE = 'ASTORBASE'
 # and the UI will not allow saving changes.
 READ_ONLY = True
 
-# When enabled, the web interface loads and saves data directly from the SQL
-# databases instead of the JSON files in the data directory.
-SQL_DIRECT_MODE = False

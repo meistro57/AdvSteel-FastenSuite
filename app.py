@@ -1,15 +1,12 @@
 # app.py
 from flask import Flask, render_template, request, redirect, url_for, jsonify
-import os
 import json
 
-from utils.json_handler import load_json, save_json
 from utils.search_utils import filter_data, query_data
-from config import DEFAULT_DATABASE, READ_ONLY, SQL_DIRECT_MODE
+from config import DEFAULT_DATABASE, READ_ONLY
 from utils.db import connect_sql_server
 
 app = Flask(__name__)
-DATA_DIR = os.path.join(os.path.dirname(__file__), 'data')
 
 
 def parse_sql_path(filename: str):
@@ -20,65 +17,49 @@ def parse_sql_path(filename: str):
 
 
 def load_table_data(filename: str):
-    """Load table rows from JSON or SQL depending on configuration."""
-    if SQL_DIRECT_MODE:
-        db, table = parse_sql_path(filename)
-        conn, cur = connect_sql_server(db)
-        cur.execute(f"SELECT * FROM [{table}]")
-        columns = [c[0] for c in cur.description]
-        rows = [dict(zip(columns, r)) for r in cur.fetchall()]
-        conn.close()
-        return rows
-    else:
-        path = os.path.join(DATA_DIR, filename)
-        return load_json(path)["data"]
+    """Load table rows directly from SQL."""
+    db, table = parse_sql_path(filename)
+    conn, cur = connect_sql_server(db)
+    cur.execute(f"SELECT * FROM [{table}]")
+    columns = [c[0] for c in cur.description]
+    rows = [dict(zip(columns, r)) for r in cur.fetchall()]
+    conn.close()
+    return rows
 
 
 def save_table_data(filename: str, json_string: str) -> None:
-    """Save table rows to JSON file or SQL table."""
+    """Save table rows directly to the SQL table."""
     rows = json.loads(json_string)
-    if SQL_DIRECT_MODE:
-        db, table = parse_sql_path(filename)
-        conn, cur = connect_sql_server(db)
-        cur.execute(f"DELETE FROM [{table}]")
-        for row in rows:
-            cols = list(row.keys())
-            placeholders = ",".join("?" for _ in cols)
-            col_names = ",".join(f"[{c}]" for c in cols)
-            values = [row[c] for c in cols]
-            cur.execute(
-                f"INSERT INTO [{table}] ({col_names}) VALUES ({placeholders})",
-                values,
-            )
-        conn.close()
-    else:
-        path = os.path.join(DATA_DIR, filename)
-        existing = load_json(path)
-        if isinstance(existing, dict) and "data" in existing:
-            existing["data"] = rows
-            save_json(path, json.dumps(existing))
-        else:
-            save_json(path, json_string)
+    db, table = parse_sql_path(filename)
+    conn, cur = connect_sql_server(db)
+    cur.execute(f"DELETE FROM [{table}]")
+    for row in rows:
+        cols = list(row.keys())
+        placeholders = ",".join("?" for _ in cols)
+        col_names = ",".join(f"[{c}]" for c in cols)
+        values = [row[c] for c in cols]
+        cur.execute(
+            f"INSERT INTO [{table}] ({col_names}) VALUES ({placeholders})",
+            values,
+        )
+    conn.close()
 
 
 @app.route('/')
 def index():
-    if SQL_DIRECT_MODE:
+    files = []
+    try:
+        conn, cur = connect_sql_server()
+        cur.execute(
+            "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES "
+            "WHERE TABLE_TYPE='BASE TABLE'"
+        )
+        files = [
+            f"{DEFAULT_DATABASE}__{row[0]}.json" for row in cur.fetchall()
+        ]
+        conn.close()
+    except Exception:
         files = []
-        try:
-            conn, cur = connect_sql_server()
-            cur.execute(
-                "SELECT TABLE_NAME FROM INFORMATION_SCHEMA.TABLES "
-                "WHERE TABLE_TYPE='BASE TABLE'"
-            )
-            files = [
-                f"{DEFAULT_DATABASE}__{row[0]}.json" for row in cur.fetchall()
-            ]
-            conn.close()
-        except Exception:
-            files = []
-    else:
-        files = [f for f in os.listdir(DATA_DIR) if f.endswith('.json')]
     return render_template('index.html', files=files, read_only=READ_ONLY)
 
 
