@@ -28,7 +28,7 @@
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/advsteel-fastensuite.git
+   git clone https://github.com/meistro57/AdvSteel-FastenSuite.git
    cd advsteel-fastensuite
    ```
 2. **Set up a virtual environment**
