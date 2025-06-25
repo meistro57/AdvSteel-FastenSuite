@@ -15,7 +15,8 @@
         Read-only mode enabled. Editing is disabled.
       </div>
     {% endif %}
-    <p><a href="{{ url_for('list_sql_tables') }}">SQL Browser</a></p>
+    <p><a href="{{ url_for('list_sql_tables') }}">SQL Browser</a> |
+       <a href="{{ url_for('browse_setbolts') }}">SetBolts Browser</a></p>
     <ul class="list-group mt-4">
       {% for file in files %}
         <li class="list-group-item">
