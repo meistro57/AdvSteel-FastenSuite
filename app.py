@@ -1,11 +1,22 @@
 # app.py
-from flask import Flask, render_template, request, redirect, url_for, jsonify
+from flask import (
+    Flask,
+    render_template,
+    request,
+    redirect,
+    url_for,
+    jsonify,
+    Response,
+)
+import csv
+import io
 import json
 
 from utils.search_utils import filter_data, query_data
 from config import DEFAULT_DATABASE, READ_ONLY
 from utils.db import connect_sql_server
 from utils.units import mm_to_inch, inch_to_mm
+from backup_db import backup_database
 
 app = Flask(__name__)
 
@@ -93,6 +104,23 @@ def search_table(filename):
     return jsonify(table_data)
 
 
+@app.route('/csv/<filename>')
+def export_csv_route(filename):
+    """Download the table as a CSV file."""
+    rows = load_table_data(filename)
+    if not rows:
+        return Response('', mimetype='text/csv')
+    output = io.StringIO()
+    writer = csv.DictWriter(output, fieldnames=rows[0].keys())
+    writer.writeheader()
+    writer.writerows(rows)
+    return Response(
+        output.getvalue(),
+        mimetype='text/csv',
+        headers={'Content-Disposition': f'attachment; filename={filename[:-5]}.csv'},
+    )
+
+
 @app.route('/setbolts')
 def browse_setbolts():
     """Browse and filter the ASTORBASE SetBolts table."""
@@ -165,6 +193,12 @@ if not READ_ONLY:
         updated_data = request.form.get('json_data')
         save_table_data(filename, updated_data)
         return redirect(url_for('view_table', filename=filename))
+
+    @app.route('/backup')
+    def backup():
+        """Trigger a database backup and return the backup path."""
+        path = backup_database()
+        return jsonify({"backup": str(path)})
 
 
 @app.route('/sql')
