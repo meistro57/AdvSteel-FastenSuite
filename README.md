@@ -102,6 +102,8 @@ exploring the Advance Steel databases and are handy for maintenance tasks:
   export filtered rows interactively.
 - `check_db_connection.py` – verify that the settings in `config.py` can reach
   your local SQL Server instance.
+- `backup_db.py` – create a timestamped backup of `AstorBase.mdf` and `AstorBase.ldf`
+  as recommended in the bolt study guide.
 
 ### Running Tests
 After installing the development dependencies you can run the
