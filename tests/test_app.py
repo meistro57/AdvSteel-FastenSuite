@@ -1,5 +1,6 @@
 import json
 import importlib
+from pathlib import Path
 import pytest
 
 import config
@@ -110,3 +111,20 @@ def test_save_updates_table_when_allowed(client_rw):
     assert resp.status_code == 302
     resp = client.get(f"/view/{file_name}")
     assert "Test" in resp.get_data(as_text=True)
+
+
+def test_backup_route(client_rw, monkeypatch):
+    client, _ = client_rw
+    monkeypatch.setattr(app_module, "backup_database", lambda: Path("/tmp/bk"))
+    resp = client.get("/backup")
+    assert resp.status_code == 200
+    assert resp.get_json() == {"backup": "/tmp/bk"}
+
+
+def test_csv_route_returns_csv(client_ro):
+    client, file_name = client_ro
+    TABLE_ROWS[:] = [(1, "Alice"), (2, "Bob")]
+    resp = client.get(f"/csv/{file_name}")
+    assert resp.status_code == 200
+    assert "text/csv" in resp.content_type
+    assert "Alice" in resp.get_data(as_text=True)

@@ -120,6 +120,9 @@ pytest
 - ⏳ Add row / delete row support
 - ⏳ User roles & access protection
 - ⏳ Portable deployment (LAN, Docker, etc.)
+- ✔️ Quick database backup endpoint
+- ✔️ CSV export utility
+- ✔️ Integrity check for SetBolts ↔ BoltDefinition
 
 ## 🧠 Why?
 Advance Steel makes modifying bolts and anchors a pain. This app changes that.
