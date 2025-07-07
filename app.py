@@ -13,6 +13,7 @@ import io
 import json
 
 from utils.search_utils import filter_data, query_data
+from utils.validation import validate_rows
 from config import DEFAULT_DATABASE, READ_ONLY
 from utils.db import connect_sql_server
 from utils.units import mm_to_inch, inch_to_mm
@@ -42,6 +43,7 @@ def load_table_data(filename: str):
 def save_table_data(filename: str, json_string: str) -> None:
     """Save table rows directly to the SQL table."""
     rows = json.loads(json_string)
+    validate_rows(rows)
     db, table = parse_sql_path(filename)
     conn, cur = connect_sql_server(db)
     cur.execute(f"DELETE FROM [{table}]")
@@ -54,6 +56,30 @@ def save_table_data(filename: str, json_string: str) -> None:
             f"INSERT INTO [{table}] ({col_names}) VALUES ({placeholders})",
             values,
         )
+    conn.close()
+
+
+def insert_row(filename: str, row: dict) -> None:
+    """Insert a single row into the SQL table."""
+    validate_rows([row])
+    db, table = parse_sql_path(filename)
+    conn, cur = connect_sql_server(db)
+    cols = list(row.keys())
+    placeholders = ",".join("?" for _ in cols)
+    col_names = ",".join(f"[{c}]" for c in cols)
+    values = [row[c] for c in cols]
+    cur.execute(
+        f"INSERT INTO [{table}] ({col_names}) VALUES ({placeholders})",
+        values,
+    )
+    conn.close()
+
+
+def delete_row(filename: str, row_id: int) -> None:
+    """Delete a row from the SQL table by ID."""
+    db, table = parse_sql_path(filename)
+    conn, cur = connect_sql_server(db)
+    cur.execute(f"DELETE FROM [{table}] WHERE ID=?", (row_id,))
     conn.close()
 
 
@@ -193,6 +219,22 @@ if not READ_ONLY:
         updated_data = request.form.get('json_data')
         save_table_data(filename, updated_data)
         return redirect(url_for('view_table', filename=filename))
+
+    @app.route('/add_row/<filename>', methods=['POST'])
+    def add_row_route(filename):
+        """Add a single row to the given table."""
+        row_json = request.form.get('row')
+        if not row_json:
+            return jsonify({'error': 'row missing'}), 400
+        row = json.loads(row_json)
+        insert_row(filename, row)
+        return jsonify({'status': 'ok'})
+
+    @app.route('/delete_row/<filename>/<int:row_id>', methods=['POST'])
+    def delete_row_route(filename, row_id):
+        """Delete a row by ID from the given table."""
+        delete_row(filename, row_id)
+        return jsonify({'status': 'ok'})
 
     @app.route('/backup')
     def backup():

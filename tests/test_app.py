@@ -22,6 +22,11 @@ def fake_connect_sql_server(database=config.DEFAULT_DATABASE):
             elif query.startswith("SELECT *"):
                 self.description = [("id",), ("name",)]
                 self.results = TABLE_ROWS
+            elif query.startswith("DELETE") and "WHERE" in query:
+                del_id = params[0]
+                TABLE_ROWS[:] = [r for r in TABLE_ROWS if r[0] != del_id]
+                self.description = []
+                self.results = []
             elif query.startswith("DELETE"):
                 TABLE_ROWS.clear()
                 self.description = []
@@ -128,3 +133,25 @@ def test_csv_route_returns_csv(client_ro):
     assert resp.status_code == 200
     assert "text/csv" in resp.content_type
     assert "Alice" in resp.get_data(as_text=True)
+
+
+def test_add_and_delete_row(client_rw):
+    client, file_name = client_rw
+    resp = client.post(
+        f"/add_row/{file_name}",
+        data={"row": json.dumps({"id": 3, "name": "Carl"})},
+    )
+    assert resp.status_code == 200
+    assert TABLE_ROWS[-1] == (3, "Carl")
+
+    resp = client.post(f"/delete_row/{file_name}/3")
+    assert resp.status_code == 200
+    assert all(r[0] != 3 for r in TABLE_ROWS)
+
+
+def test_add_delete_disabled_in_read_only(client_ro):
+    client, file_name = client_ro
+    resp = client.post(f"/add_row/{file_name}", data={"row": "{}"})
+    assert resp.status_code == 404
+    resp = client.post(f"/delete_row/{file_name}/1")
+    assert resp.status_code == 404

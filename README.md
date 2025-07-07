@@ -21,8 +21,10 @@
 - Optional SQL browser with simple query interface
 - Development read-only mode to prevent accidental changes
 - Edit tables directly in SQL
+- Add or delete rows via dedicated API endpoints
 - SetBolts browser with inch/mm unit conversion
 - Advanced filtering with comparison operators (e.g. `__gt`, `__lte`) and partial matching
+- Validation ensures all rows share the same columns when saving
 
 ---
 
@@ -115,9 +117,9 @@ pytest
 
 ## 📋 Roadmap
 - ✔️ Tabbed UI for bolts and anchors
-- ⏳ Inline editing with table validation
+- ✔️ Inline editing with table validation
 - ✔️ SQL direct mode (read/write)
-- ⏳ Add row / delete row support
+- ✔️ Add row / delete row support
 - ⏳ User roles & access protection
 - ⏳ Portable deployment (LAN, Docker, etc.)
 - ✔️ Quick database backup endpoint
