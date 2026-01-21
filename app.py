@@ -18,6 +18,7 @@ from config import DEFAULT_DATABASE, READ_ONLY
 from utils.db import connect_sql_server
 from utils.units import mm_to_inch, inch_to_mm
 from backup_db import backup_database
+from services.anchor_builder import create_full_anchor
 
 app = Flask(__name__)
 
@@ -241,6 +242,25 @@ if not READ_ONLY:
         """Trigger a database backup and return the backup path."""
         path = backup_database()
         return jsonify({"backup": str(path)})
+
+
+@app.route('/api/anchors/create', methods=['POST'])
+def create_anchor():
+    """Create a full anchor definition across related tables."""
+    if READ_ONLY:
+        return jsonify(
+            {"status": "error", "message": "Read-only mode is enabled."}
+        ), 403
+
+    anchor_data = request.get_json(silent=True)
+    if not anchor_data:
+        return jsonify(
+            {"status": "error", "message": "Missing JSON payload."}
+        ), 400
+
+    result = create_full_anchor(anchor_data)
+    status_code = 200 if result.get("status") == "success" else 400
+    return jsonify(result), status_code
 
 
 @app.route('/sql')
